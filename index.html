@@ -104,17 +104,27 @@
 			<p>
 				Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостинец в Седоне
 			</p>
-			<img src="img/map.png" width="1200px" height="593px">
 			<button type="button">Поиск гостиницы в Седоне</button>
-			<form action="#" method="post">
-				<input type="submit" value="Найти">
+			<form action="https://echo.htmlacademy.ru" method="post">
+				<label for="date of arrival">Дата заезда:</label>
+					<input id="date of arrival" type="text" name="date" value="24 апреля 2017">
+				<img src="img/calendar.svg" width="21px" height="22px" alt="Календарь">
+				<label for="date of departure">Дата выезда:</label>
+					<input id="date of departure" type="text" name="date" value="4 июля 2017">
+				<img src="img/calendar.svg" width="21px" height="22px" alt="Календарь">
+				<label for="adults">Взрослые:</label>
+					<input id="adults" type="number" name="quantity" value="2">
+				<label for="children">Дети:</label>
+					<input id="children" type="number" name="quantity" value="0">
+					<input type="submit" value="Найти">
 			</form>
+			<img src="img/map.png" width="1200px" height="593px">
 		</section>
 	</main>
 	<footer>
 		<div>
 			<span>#VISITSEDONA</span>
-			<a href="tel:">+74956660266</a>
+			<a href="tel:+74956660266">+74956660266</a>
 		</div>
 		<ul>
 			<li><a href="https://twitter.com/"><img src="img/twitter.svg" width="17px" height="15px">Твиттер</a></li>
@@ -125,6 +135,5 @@
 			<img src="img/logo-htmlacademy.svg" width="115px" height="41px" alt="htmlacademy">
 		</a>
 	</footer>
-	
 </body>
 </html>
