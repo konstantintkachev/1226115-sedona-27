@@ -51,18 +51,18 @@
 							<label for="filter_motel">Мотель</label>
 						</li>
 						<li>
-							<input type="checkbox" name="apartmentsl" id="filter_apartments" checked>
+							<input type="checkbox" name="apartments" id="filter_apartments" checked>
 							<label for="filter_apartments">Аппартаменты</label>
 						</li>
 					</ul>
 				</fieldset>
-				<label for="cost">Стоимость в сутки (Р):</label>
-					<input type="text" id="cost" name="cost" value="от 0">
-					<input type="text" id="cost" name="cost" value="до 3000">
+				<label for="renta">Стоимость в сутки (Р):</label>
+					<input type="text" id="minCost" name="minCost" value="от 0">
+					<input type="text" id="maxCost" name="maxCost" value="до 3000">
 				<img src="img/filter-button.svg" width="20px" height="22px" alt="Фильтрующая кнопка">
 					<input type="range" min="1" step="1" name="cost">
 				<img src="img/filter-button.svg" width="20px" height="22px" alt="Фильтрующая кнопка">
-				<button type="button">Показать</button>
+				<button type="submit">Показать</button>
 			</form>
 			<h2>Тип жилья</h2>
 				<img src="img/icon-up-dir.svg" width="11px" height="10px" alt="Стрелка вверх">
