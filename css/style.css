@@ -1,0 +1,49 @@
+body {
+	margin: 0 40px 0 40px;
+	padding: 0;
+	font-style: "PTSans-Bold","PTSans-Regular", "Arial", sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	text-transform: uppercase;
+	background-color: #ffffff;
+}
+
+a {
+	text-decoration: none;
+}
+
+.visually-hidden {
+	display: none;
+}
+
+.main-navigation {
+	font-size: 14px;
+	line-height: 26px;
+	color: var(--black-two);
+	font-weight: bold;
+	font-style: normal;
+	letter-spacing: normal;
+	font-family: "PTSans-Bold";
+}
+
+.site-navigation {
+	list-style: none;
+}
+
+.site-navigation a {
+	color: var(--black-two);
+}
+
+.slogan {
+  width: 440px;
+  height: 48px;
+  font-family: "PTSans-Bold";
+  font-size: 21px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.24;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000000;
+  }
