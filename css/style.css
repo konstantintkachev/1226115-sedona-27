@@ -1,7 +1,7 @@
 body {
 	margin: 0 40px 0 40px;
 	padding: 0;
-	font-style: PTSans-Bold, PTSans-Regular, Arial, sans-serif;
+	font-family: "PT Sans Narrow", Verdona, sans-serif;
 	font-size: 14px;
 	font-weight: normal;
 	text-transform: uppercase;
@@ -16,46 +16,80 @@ a {
 	display: none;
 }
 
-.main-navigation {
+.nav-ul__navigation {
 	font-size: 14px;
 	line-height: 26px;
 	color: #0000000;
 	font-weight: bold;
 	font-style: normal;
 	letter-spacing: normal;
-	font-family: PTSans-Bold;
+	font-family: "PT Sans Narrow", Verdona, sans-serif;
 }
 
-.site-navigation {
+.nav-ul__navigation {
 	list-style: none;
 }
 
-.site-navigation a {
+ a {
 	color: #000000;
 }
 
-.b-article-main {
+.article__title-text {
 	width: 440px;
-	height: 59px;
+	height: 48px;
 	font-size: 21px;
 	line-height: 26px;
 	font-style: normal;
-	font-family: PTSans-Bold;
 	margin: 59px 380px 107px 380px;
 	font-weight: bold;
 	color: #000000;
 	letter-spacing: normal;
 	text-align: center;
 	font-stretch: normal;
+	font-family: "PT Sans Narrow", Verdona, sans-serif;
 }
 
-.b-article-text {
+.article-text__elem {
 	margin: 38px 365px 56px 355px;
 	width: 489px;
 	height: 13px;
 	font-size: 14px;
 	text-align: center;
 	font-weight: normal;
-	font-style: PTSans-Regular;
 	line-height: 26px;
+	font-family: "PT Sans Narrow", Verdona, sans-serif;
+}
+
+.slide__block {
+  width: 400px;
+  height: 256px;
+  background-color: #81b3d2;
+}
+
+.slide-content__text {
+  width: 280px;
+  height: 146px;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: normal;
+  text-align: center;
+  color: #ffffff;
+
+}
+
+.slide__item {
+  text-align: center;
+  color: #ffffff;
+}
+
+.slide__header {
+	font-size: 21px;
+	font-weight: bold;
+	text-align: center;
+	color: #ffffff;
+}
+
+.gallery-content img {
+	background-position: 440px 780px;
+	margin: 56px 40px 0 0;
 }
