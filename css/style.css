@@ -1,15 +1,18 @@
 body {
-	margin: 0 40px 0 40px;
-	padding: 0;
+	padding: 0 40px 0 40px;
 	font-family: "PT Sans Narrow", Verdona, sans-serif;
 	font-size: 14px;
 	font-weight: normal;
 	text-transform: uppercase;
-	background-color: #ffffff;
 }
 
 a {
 	text-decoration: none;
+}
+
+.page {
+	text-align: center;
+	box-shadow: 0px 5px 15px 0 rgba(0, 1, 1, 0.2);
 }
 
 .visually-hidden {
@@ -42,7 +45,7 @@ a {
 	background-color: red;
 }
 
-.main__content h2 {
+.post__content h2 {
 	font-size: 21px;
 	font-weight: bold;
 	line-height: 26px;
@@ -51,7 +54,7 @@ a {
 	height: 48px; 
 }
 
-.main__item {
+.post__item {
 	width: 489px;
  	height: 13px;
  	font-size: 14px;
@@ -78,6 +81,8 @@ a {
 .section__block-title {
 	font-size: 21px;
 	font-weight: bold;
+	padding: 0;
+	margin: 0;
 }
 
 .features-list__items {
@@ -113,12 +118,30 @@ a {
 	background-color: #766357;
 	width: 568px;
 	height: 86px;
-}
-
-.search-form__button {
 	font-size: 21px;
 	font-weight: bold;
 	color: #ffffff;
+	text-transform: uppercase;
+}
+
+.search-form {
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.search-form__input {
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.search-form__submit {
+	background-color: #81b3d2;
+	width: 458px;
+	height: 58px;
+	font-size: 21px;
+	font-weight: bold;
+	color: #ffffff;
+	text-transform: uppercase;
 }
 
 .socials {
@@ -128,4 +151,10 @@ a {
 .footer__hachtag {
 	font-size: 21px;
 	font-weight: bold;
+}
+
+.footer__phone {
+	font-size: 21px;
+	color: #000000;
+
 }
