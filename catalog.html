@@ -3,80 +3,93 @@
 <head>
 	<meta charset="utf-8">
 	<title>HTML Academy: Седона</title>
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&amp;subset=latin,cyrillic" rel="stylesheet">
+    	<link href="css/style.css" rel="stylesheet">
 </head>
 <body>
-	<header>
-		<nav>
-			<a href="#">
+<div class="page">
+	<header class="header">
+		<a class="header__logo">
 				<img src="img/logo-sedona.svg" width="140px" height="71px" alt="Город Седона">
-			</a>
-			<ul>
-				<li><a href="#">Информация</a></li>
-				<li><a href="#">Фото и видео</a></li>
-				<li><a href="#">Карта штата</a></li>
-				<li><a href="catalog.html">Гостиницы</a></li>
+		</a>
+		<nav class="nav">
+			<ul class="nav__items">
+				<li class="nav__item">
+					<a class="nav__link" href="#">Информация</a>
+				</li>
+				<li class="nav__item">
+					<a class="nav__link" href="#">Фото и видео</a>
+				</li>
+				<li class="nav__item">
+					<a class="nav__link" href="#">Карта штата</a>
+				</li>
+				<li class="nav__item">
+					<a class="nav__link" href="catalog.html">Гостиницы</a>
+				</li>
 			</ul>
 		</nav>
-		<img src="img/filter-background.png" width="1200px" height="562px" alt="Задний план">
 	</header>
 	<main>
-		<section>
-			<form class="filter" action="https://echo.htmlacademy.ru" method="get">
-				<fieldset>
-					<legend>Инфраструктура</legend>
-					<ul>
-						<li>
-							<input type="checkbox" name="pool" id="filter_pool" checked>
-							<label for="filter_pool">Бассейн</label>
-						</li>
-						<li>
-							<input type="checkbox" name="parking" id="filter_parking">
-							<label for="filter_parking">Парковка</label>
-						</li>
-						<li>
-							<input type="checkbox" name="wi-fi" id="filter_wi-fi">
-							<label for="filter_wi-fi">Wi-Fi</label>
-						</li>
-					</ul>
-				</fieldset>
-				<fieldset>
-					<legend>Тип жилья:</legend>
-					<ul>
-						<li>
-							<input type="checkbox" name="hotel" id="filter_hotel" checked>
-							<label for="filter_hotel">Гостиница</label>
-						</li>
-						<li>
-							<input type="checkbox" name="motel" id="filter_motel" checked>
-							<label for="filter_motel">Мотель</label>
-						</li>
-						<li>
-							<input type="checkbox" name="apartments" id="filter_apartments" checked>
-							<label for="filter_apartments">Аппартаменты</label>
-						</li>
-					</ul>
-				</fieldset>
-				<label for="renta">Стоимость в сутки (Р):</label>
-					<input type="text" id="minCost" name="minCost" value="от 0">
-					<input type="text" id="maxCost" name="maxCost" value="до 3000">
-				<img src="img/filter-button.svg" width="20px" height="22px" alt="Фильтрующая кнопка">
-					<input type="range" min="1" step="1" name="cost">
-				<img src="img/filter-button.svg" width="20px" height="22px" alt="Фильтрующая кнопка">
-				<button type="submit">Показать</button>
-			</form>
-			<h3>Найдено 3:</h3>
-			<h4>Сортировка:</h4>
-			<ul>
-				<li>
-					<span>По цене</span>
-				</li>
-				<li>
-					<span>По типу</span>
-				</li>
-				<li>
-					<span>По рейтингу</span>
-				</li>
-			</ul>
+		<div>
+			<img src="img/filter-background.png" width="1200px" height="562px" alt="Задний план">
+		</div>
+		<div class="main-page_position">
+				<form class="filter" action="https://echo.htmlacademy.ru" method="get">
+					<fieldset>
+						<legend class="lists__header">Инфраструктура:</legend>
+						<ul class="lists__text">
+							<li>
+								<input type="checkbox" name="pool" id="filter_pool" checked>
+									<label for="filter_pool">Бассейн</label>
+							</li>
+							<li>
+								<input type="checkbox" name="parking" id="filter_parking">
+									<label for="filter_parking">Парковка</label>
+							</li>
+							<li>
+								<input type="checkbox" name="wi-fi" id="filter_wi-fi">
+									<label for="filter_wi-fi">Wi-Fi</label>
+							</li>
+						</ul>
+					</fieldset>
+					<fieldset>
+						<legend class="lists__header">Тип жилья:</legend>
+						<ul class="lists__text">
+							<li>
+								<input type="checkbox" name="hotel" id="filter_hotel" checked>
+									<label for="filter_hotel">Гостиница</label>
+							</li>
+							<li>
+								<input type="checkbox" name="motel" id="filter_motel" checked>
+									<label for="filter_motel">Мотель</label>
+							</li>
+							<li>
+								<input type="checkbox" name="apartments" id="filter_apartments" checked>
+									<label for="filter_apartments">Аппартаменты</label>
+							</li>
+						</ul>
+					</fieldset>
+					<label class="search-form__title" for="renta">Стоимость в сутки (Р):</label>
+						<input type="text" id="minCost" name="minCost" value="от 0">
+							<input type="text" id="maxCost" name="maxCost" value="до 3000">
+								<img src="img/filter-button.svg" width="20px" height="22px" alt="Фильтрующая кнопка">
+							<input type="range" min="1" step="1" name="cost">
+								<img src="img/filter-button.svg" width="20px" height="22px" alt="Фильтрующая кнопка">
+						<button class="search-form__button" type="submit">Показать</button>
+				</form>
+				<span class="found-result">Найдено 3:</span>
+					<span class="sort-result">Сортировка:</span>
+						<ul class="list-result">
+							<li>
+								<span class="cost-item">По цене</span>
+							</li>
+							<li>
+								<span class="type-item">По типу</span>
+							</li>
+							<li>
+								<span class="raiting-item">По рейтингу</span>
+							</li>
+						</ul>				
 			<img src="img/icon-up-dir.svg" width="11px" height="10px" alt="Стрелка вверх">
 					<img src="img/icon-down-dir.svg" width="11px" height="10px" alt="Стрелка вниз">
 			<h2 class="visually-hidden">Отели</h2>
@@ -130,7 +143,7 @@
 							<img src="img/star.svg" width="18px" height="17px" alt="Звезды">
 				</li>
 			</ul>
-		</section>
+		</div>
 	</main>
 	<footer>
 		<div>
@@ -146,5 +159,6 @@
 			<img src="img/logo-htmlacademy.svg" width="115px" height="41px" alt="htmlacademy">
 		</a>
 	</footer>
+</div>
 </body>
 </html>
