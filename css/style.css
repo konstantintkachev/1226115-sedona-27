@@ -1,16 +1,19 @@
 body {
+	margin: 0;
 	padding: 0 40px 0 40px;
 	font-family: "PT Sans Narrow", Verdona, sans-serif;
 	font-size: 14px;
+	line-height: 21px;
 	font-weight: normal;
 	text-transform: uppercase;
+	background-color: #f2f2f2;
 }
 
 a {
 	text-decoration: none;
 }
 
-.page {
+.wrapper {
 	text-align: center;
 	box-shadow: 0px 5px 15px 0 rgba(0, 1, 1, 0.2);
 }
@@ -42,32 +45,64 @@ a {
 
 .nav__items a:hover,
 .nav__items a:focus {
-	background-color: red;
+	background-color:#81b3d2;
 }
 
-.post__content h2 {
+.section__title {
 	font-size: 21px;
 	font-weight: bold;
 	line-height: 26px;
-	text-align: center;
 	width: 440px;
-	height: 48px; 
+	height: 48px;
+	margin: 59px 380px 38px 380px;
+	text-align: center;
+	color: #000000;
 }
 
-.post__item {
+.section__description {
 	width: 489px;
  	height: 13px;
  	font-size: 14px;
  	font-weight: normal;
- 	line-height: 26px;
- 	text-align: center;
+	 line-height: 26px;
+	 text-align: center;
+	 margin: 38px 356px 56px 355px;
+	 color: #333333;
 }
 
-.section__block_blue-back {
+.feature {
 	width: 400px;
 	height: 256px;
 	background-color: #81b3d2;
 }
+
+.feature__title {
+	font-size: 21px;
+	text-align: center;
+	color: #ffffff;
+	margin: 0;
+	padding: 0 10px;
+}
+
+.feature__number {
+	font-size: 14px;
+	text-align: center;
+	color: #ffffff;
+}
+
+.feature__description {
+	font-size: 14px;
+	text-align: center;
+	color: #ffffff;
+}
+
+.feature__wrapper {
+	padding: 46px 60px 64px 60px;
+	width: 280px;
+	height: 146px;
+	rig
+}
+
 
 .section__block_blue-back .section__block_left {
 	font-size: 14px;
@@ -78,7 +113,7 @@ a {
 	padding: 46px 60px 64px 60px; 
 }
 
-.section__block-title {
+.feature__title {
 	font-size: 21px;
 	font-weight: bold;
 	padding: 0;
@@ -148,10 +183,6 @@ a {
 	border: none;
 }
 
-.main-page_position {
-	text-align: left;
-}
-
 .found-result {
 	font-size: 21px;
 	font-weight: bold;
@@ -174,11 +205,9 @@ a {
 
 .lists__text {
 	list-style: none;
-	text-align: left;
 }
 
 .lists__header {
-	text-align: left;
 	font-size: 16px;
 	font-weight: bold;
 }
@@ -211,3 +240,4 @@ a {
 	text-align: center;
 
 }
+
