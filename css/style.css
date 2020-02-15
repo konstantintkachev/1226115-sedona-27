@@ -14,8 +14,8 @@ a {
 }
 
 .wrapper {
-	text-align: center;
 	box-shadow: 0px 5px 15px 0 rgba(0, 1, 1, 0.2);
+	text-align: center;
 }
 
 .visually-hidden {
@@ -100,56 +100,40 @@ a {
 	padding: 46px 60px 64px 60px;
 	width: 280px;
 	height: 146px;
-	rig
 }
 
-
-.section__block_blue-back .section__block_left {
-	font-size: 14px;
-	color: #ffffff;
-	text-align: center;
-	width: 280px;
-	height: 146px;
-	padding: 46px 60px 64px 60px; 
-}
-
-.feature__title {
-	font-size: 21px;
-	font-weight: bold;
-	padding: 0;
-	margin: 0;
-}
-
-.features-list__items {
+.advantages__items {
 	list-style: none;
 }
 
-.features__title {
+.advantages__title {
 	font-size: 21px;
-	line-height: 21px;
-}
-
-.section__block_blue-back .section__block_right {
-	font-size: 14px;
-	color: #ffffff;
+	font-weight: bold;
 	text-align: center;
-	width: 280px;
-	height: 146px;
-	padding: 46px 60px 64px 60px; 
 }
 
-.section__block-title {
-	font-size: 21px;
-	font-weight: bold;
+.advantages__description {
+	font-size: 14px;
+	text-align: center;
+	font-weight: normal;
 }
 
-.main-item__title {
+.feature__number-number {
+	color: #333333;
+}
+
+.offer__title {
 	font-size: 30px;
+	line-height: 36px;
+	text-align: center;
 	font-weight: bold;
+}
+
+.offer__text {
 	line-height: 24px;
 }
 
-.search-form__button_brown {
+.search-form__button {
 	background-color: #766357;
 	width: 568px;
 	height: 86px;
@@ -179,65 +163,72 @@ a {
 	text-transform: uppercase;
 }
 
-.filter fieldset {
+.nav__active, a:active {
+	color: rgba(0, 0, 0, 0.3);
+}
+
+.filter__border {
 	border: none;
 }
 
-.found-result {
-	font-size: 21px;
-	font-weight: bold;
-}
-
-.sort-result {
-	font-size: 12px;
-	line-height: 18px;
-}
-
-.list-result{
+.filter__items {
 	list-style: none;
 }
-
-.cost-item {
-	font-size: 12px;
-	line-height: 18px;
-	color: #81b3d2;
-}
-
-.lists__text {
-	list-style: none;
-}
-
-.lists__header {
+.filter__title {
 	font-size: 16px;
 	font-weight: bold;
+	text-align: left;
 }
 
-.search-form__title {
-	font-size: 16px;
-	text-align: center;
-	font-weight: bold;
+.filter__item {
+	text-align: left;
 }
 
-.search-form__button {
+.search-form__button_color {
 	width: 133px;
 	height: 32px;
-	border: solid 2px #ffffff;
+	border: solid 2px #000000;
+	text-transform: uppercase;
+}
+
+.filter__number {
+	text-transform: uppercase;
+}
+
+.filter__range {
+	height: 2px;
+	width: 248px;
+}
+
+.search-queries__list {
+	list-style: none;
 }
 
 .socials {
 	list-style: none;
+	text-align: center;
 }
 
-.footer__hachtag {
+.footer__hashtag {
 	font-size: 21px;
 	font-weight: bold;
-	text-align: center;
+	text-align: left;
 }
 
 .footer__phone {
 	font-size: 21px;
 	color: #000000;
-	text-align: center;
+	text-align: left;
 
 }
+
+.htmlacademy {
+	text-align: right;
+}
+
+
+
+
+
+
 
