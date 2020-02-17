@@ -24,7 +24,7 @@
 					<a class="nav__link" href="#">Карта штата</a>
 				</li>
 				<li class="nav__item">
-					<a class="nav__active" href="catalog.html">Гостиницы</a>
+					<a class="nav__link_active" href="catalog.html">Гостиницы</a>
 				</li>
 			</ul>
 		</nav>
@@ -68,8 +68,8 @@
 						</ul>
 					</fieldset>
 					<label class="filter__title" for="renta">Стоимость в сутки (Р):</label>
-						<input class="filter__number" type="text" id="minCost" name="minCost" value="от 0">
-							<input class="filter__number" type="text" id="maxCost" name="maxCost" value="до 3000">
+						<input class="filter__number" type="text" id="renta" name="minCost" value="от 0">
+							<input class="filter__number" type="text" id="renta" name="maxCost" value="до 3000">
 								<img src="img/filter-button.svg" width="20px" height="22px" alt="Фильтрующая кнопка">
 							<input class="filter__range" type="range" min="1" step="1" name="cost">
 								<img src="img/filter-button.svg" width="20px" height="22px" alt="Фильтрующая кнопка">
@@ -84,10 +84,10 @@
 									<button type="button" class="search-queries__button_active">По цене</button>
 								</li>
 								<li>
-									<button type="button" class="search-queries__button" type="button">По типу</button>
+									<button type="button" class="search-queries__button">По типу</button>
 								</li>
 								<li>
-									<button type="button" class="search-queries__button" type="button">По рейтингу</button>
+									<button type="button" class="search-queries__button">По рейтингу</button>
 								</li>
 							</ul>
 				</div>	
@@ -111,14 +111,15 @@
                      <span class="hotels__minCost">от 4000 р.</span>
                           <span class="hotels__raiting">Рейтинг: 8,5</span>
                      <button class="hotels__button" type="button">Подробнее</button>
-                <button class="hotels__button_button-color" type="button">Забронировать</button>
-            </li>
-    <div class="stars">
-        <img src="img/star.svg" width="18px" height="17px" alt="Звезды">
-            <img src="img/star.svg" width="18px" height="17px" alt="Звезды">
-                <img src="img/star.svg" width="18px" height="17px" alt="Звезды">
-                    <img src="img/star.svg" width="18px" height="17px" alt="Звезды">
-    </div>
+                <button class="hotels__button_color" type="button">Забронировать</button>
+            
+   			    <div class="stars">
+       				<img src="img/star.svg" width="18px" height="17px" alt="Звезды">
+            			<img src="img/star.svg" width="18px" height="17px" alt="Звезды">
+                			<img src="img/star.svg" width="18px" height="17px" alt="Звезды">
+                    			<img src="img/star.svg" width="18px" height="17px" alt="Звезды">
+				</div>
+			</li>
             <li class="hotels__item">
                 <a href="#">
                     <img class="hotels__img" src="img/hotel-picture1.png" width="135px" height="90px">
@@ -128,7 +129,7 @@
                     <span class="hotels__minCost">от 3000 р.</span>
                         <span class="hotels__raiting">Рейтинг: 8,9</span>
                     <button class="hotels__button" type="button">Подробнее</button>
-                <button class="hotels__button_button-color" type="button">Забронировать</button>
+                <button class="hotels__button_color" type="button">Забронировать</button>
                 <div class="stars">
                     <img src="img/star.svg" width="18px" height="17px" alt="Звезды">
                         <img src="img/star.svg" width="18px" height="17px" alt="Звезды">
@@ -144,11 +145,11 @@
                         <span class="hotels__minCost">от 2000 р.</span>
                             <span class="hotels__raiting">Рейтинг: 9,2</span>
                     <button class="hotels__button" type="button">Подробнее</button>
-                <button class="hotels__button_button-color" type="button">Забронировать</button>
+                <button class="hotels__button_color" type="button">Забронировать</button>
                 <div class="stars">
                     <img src="img/star.svg" width="18px" height="17px" alt="Звезды">
                         <img src="img/star.svg" width="18px" height="17px" alt="Звезды">
-                </div>
+               	</div>
             </li>	
     </ul>
 </div>
@@ -176,9 +177,9 @@
 			</li>
 		</ul>
 		<div class="htmlacademy">
-				<span class="footer__elem">website by</span>
-					<a class="footer__htmlacademy" href="https://htmlacademy.ru/">
-						<img class="footer__logo" src="img/logo-htmlacademy.svg" width="115px" height="41px" alt="htmlacademy">
+				<span class="htmlacademy__item">website by</span>
+					<a class="htmlacademy__link" href="https://htmlacademy.ru/">
+						<img class="htmlacademyr__img" src="img/logo-htmlacademy.svg" width="115px" height="41px" alt="htmlacademy">
 					</a>
 		</div>
 	</footer>
