@@ -146,7 +146,7 @@ a {
 	line-height: 24px;
 }
 
-.search-form__button {
+.offer-form__button {
 	background-color: #766357;
 	width: 568px;
 	height: 86px;
@@ -310,6 +310,32 @@ a {
 	border: 1px solid #766357;
 	color: #ffffff;
 	text-transform: uppercase;
+}
+
+.nav {
+	width: 1280px;
+	height: 71px;
+	margin: 0 auto;
+	display: flex;
+	align-items: flex-start;
+	margin-bottom: 61px;
+}
+
+.nav__items {
+	display: flex;
+	margin: 0;
+}
+
+.nav__item {
+	margin: 22px 72px;
+	justify-content: space-around;
+}
+.header-logo__img {
+	width: 140px;
+	height: 71px;
+	margin-top: 0;
+	position: absolute;
+	text-align: center;
 }
 
 .socials {
