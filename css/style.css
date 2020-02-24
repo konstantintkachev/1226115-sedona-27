@@ -319,6 +319,7 @@ a {
 	display: flex;
 	align-items: flex-start;
 	margin-bottom: 61px;
+	position: relative;
 }
 
 .nav__items {
@@ -335,7 +336,7 @@ a {
 	height: 71px;
 	margin-top: 0;
 	position: absolute;
-	text-align: center;
+	padding-left: 478px;
 }
 
 .socials {
