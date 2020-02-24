@@ -1,4 +1,6 @@
 body {
+	display: flex;
+	justify-content: center;
 	margin: 0;
 	padding: 0 40px 0 40px;
 	font-family: "PT Sans Narrow", Verdona, sans-serif;
@@ -87,6 +89,16 @@ a {
 	width: 400px;
 	height: 256px;
 	background-color: #81b3d2;
+	position: absolute;
+	z-index: 3;
+	top: 763px;
+}
+
+.feature__img {
+	position: absolute;
+	z-index: 4;
+	top: 763px;
+	left: 451px;
 }
 
 .feature__title {
@@ -101,6 +113,7 @@ a {
 	font-size: 14px;
 	text-align: center;
 	color: #ffffff;
+	margin: 20px;
 }
 
 .feature__description {
@@ -324,19 +337,52 @@ a {
 
 .nav__items {
 	display: flex;
-	margin: 0;
 }
 
 .nav__item {
-	margin: 22px 72px;
-	justify-content: space-around;
+	padding: 0 72px;
+	z-index: 1;
+	padding-right: 147px;
+	
 }
+
 .header-logo__img {
 	width: 140px;
 	height: 71px;
-	margin-top: 0;
 	position: absolute;
-	padding-left: 478px;
+	margin-left: 529px;
+	z-index: 1;
+}
+
+.banner {
+	display: flex;
+	position: relative;
+}
+
+.banner__img-1 {
+	z-index: 2;
+	justify-content: center;
+	position: absolute;
+	margin-left: 370px;
+}
+
+.banner__img-2 {
+	position: absolute;
+	top: -75px;
+}
+
+.banner__img-3 {
+	position: absolute;
+	top: 352px;
+}
+
+.section__background {
+	background-color: #ffffff;
+	position: absolute;
+	border: 1px solid #ffffff;
+	z-index: 3;
+	top: 542px;
+	height: 286px;
 }
 
 .socials {
