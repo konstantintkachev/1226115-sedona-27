@@ -343,7 +343,7 @@ a {
 	text-transform: uppercase;
 }
 
-.nav {
+.header {
 	width: 1280px;
 	height: 71px;
 	margin: 0 auto;
@@ -368,13 +368,19 @@ a {
 	width: 140px;
 	height: 71px;
 	position: absolute;
-	margin-left: 529px;
+	left: auto;
+	right: 610px;
 	z-index: 1;
+	top: 0px;
 }
 
 .banner {
 	display: flex;
-	position: relative;
+	position: absolute;
+	background-image: url("../img/background-photo.png");
+	width: 1200px;
+	height: 773px;	
+	top: 50px
 }
 
 .banner__img-1 {
@@ -382,16 +388,15 @@ a {
 	justify-content: center;
 	position: absolute;
 	margin-left: 370px;
+	height: 353px;
+	top: 85px;
 }
 
 .banner__img-2 {
 	position: absolute;
-	top: -75px;
-}
-
-.banner__img-3 {
-	position: absolute;
-	top: 352px;
+	top: 434px;
+	height: 59px;
+	left: -1px;
 }
 
 .section__background {
