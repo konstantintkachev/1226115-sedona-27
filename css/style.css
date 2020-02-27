@@ -86,12 +86,16 @@ a {
 }
 
 .feature {
+	width: 1200px;
+	height: 256px;
+	display: flex;
+}
+
+.feature__wrapper {
 	width: 400px;
 	height: 256px;
 	background-color: #81b3d2;
-	position: absolute;
-	z-index: 3;
-	top: 763px;
+	align-items: flex-start;
 }
 
 .feature__img {
@@ -123,11 +127,7 @@ a {
 	margin: 0;
 }
 
-.feature__wrapper {
-	margin: 46px auto;
-	width: 230px;
-	height: 146px;
-}
+
 
 .advantages {
 	display: flex;
@@ -400,12 +400,14 @@ a {
 }
 
 .section__background {
+	
 	background-color: #ffffff;
 	position: absolute;
 	border: 1px solid #ffffff;
 	z-index: 3;
 	top: 542px;
-	height: 286px;
+	height: 219px;
+	width: 1200px;
 }
 
 .socials {
