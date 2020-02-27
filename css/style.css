@@ -19,6 +19,7 @@ a {
 	box-shadow: 0px 5px 15px 0 rgba(0, 1, 1, 0.2);
 	text-align: center;
 	max-width: 1200px;
+	background-color: #ffffff;
 }
 
 .visually-hidden {
@@ -95,14 +96,7 @@ a {
 	width: 400px;
 	height: 256px;
 	background-color: #81b3d2;
-	align-items: flex-start;
-}
-
-.feature__img {
-	position: absolute;
-	z-index: 4;
-	top: 763px;
-	left: 451px;
+	align-items: flex-end;
 }
 
 .feature__title {
@@ -127,7 +121,12 @@ a {
 	margin: 0;
 }
 
-
+.feature__img {
+	position: absolute;
+	z-index: 4;
+	top: 795px;
+	left: 451px;
+}
 
 .advantages {
 	display: flex;
@@ -344,13 +343,12 @@ a {
 }
 
 .header {
-	width: 1280px;
 	height: 71px;
 	margin: 0 auto;
 	display: flex;
 	align-items: flex-start;
-	margin-bottom: 61px;
 	position: relative;
+	background-color: #ffffff;
 }
 
 .nav__items {
@@ -358,29 +356,28 @@ a {
 }
 
 .nav__item {
-	padding: 0 72px;
-	z-index: 1;
-	padding-right: 147px;
-	
+	padding: 0 100px;
+	justify-content: space-between;
 }
 
 .header-logo__img {
 	width: 140px;
 	height: 71px;
 	position: absolute;
-	left: auto;
-	right: 610px;
 	z-index: 1;
 	top: 0px;
+	left: 50%;
+	margin-left: -70px;
+
 }
 
 .banner {
 	display: flex;
-	position: absolute;
+	position: relative;
 	background-image: url("../img/background-photo.png");
 	width: 1200px;
-	height: 773px;	
-	top: 50px
+	height: 510px;
+	bottom: 15px;	
 }
 
 .banner__img-1 {
@@ -394,7 +391,7 @@ a {
 
 .banner__img-2 {
 	position: absolute;
-	top: 434px;
+	top: 452px;
 	height: 59px;
 	left: -1px;
 }
@@ -434,7 +431,14 @@ a {
 
 
 
-
+.logo {
+	width: 64px;
+	height: 64px;
+	background-image: url("logo.png");
+	background-repeat: no-repeat;
+	background-color: transparent;
+  }
+  
 
 
 
