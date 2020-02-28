@@ -200,6 +200,19 @@ a {
 .search-form {
 	font-size: 14px;
 	font-weight: bold;
+	width: 459px;
+	position: absolute;
+	left: 50%;
+	margin-left: -284px;
+	background-color: #ffffff;
+	box-shadow: 0px 7px 15px 0 rgba(0, 1, 1, 0.15);
+	padding-top: 69px;
+	padding-left: 55px;
+	padding-right: 55px;
+	
+}
+
+.map {
 	background-image: url(../img/map.png);
 	background-repeat: no-repeat;
 	height: 473px;
@@ -214,6 +227,9 @@ a {
 .search-form__input {
 	font-size: 14px;
 	font-weight: bold;
+	border: none;
+	padding-left: 34px;
+	padding-right: 80px;
 }
 
 .search-form__people {
@@ -229,6 +245,7 @@ a {
 	font-weight: bold;
 	color: #ffffff;
 	text-transform: uppercase;
+	margin: 55px 55px;
 }
 
 .filter__border {
