@@ -91,7 +91,6 @@ a {
 
 .feature__wrapper {
 	width: 400px;
-	height: 210px;
 	background-color: #81b3d2;
 	padding-top: 46px;
 	
@@ -102,7 +101,7 @@ a {
 	text-align: center;
 	color: #ffffff;
 	margin: 0;
-	padding: 15px 10px 25px;
+	padding: 15px 111px 25px;
 }
 
 .feature__number {
@@ -115,7 +114,6 @@ a {
 	font-size: 14px;
 	text-align: center;
 	color: #ffffff;
-	padding: auto;
 	margin: 25px auto;
 	width: 220px;
 }
@@ -131,13 +129,13 @@ a {
 	flex-direction: row;
 	justify-content: space-around;
 	align-items: baseline;
-	margin: 0 73px;
-	padding: 0;
+	margin: 0 auto;
+	padding: auto;
 } 
 
 .advantages__item {
-	margin-right: auto;
-	margin-left: 73px;
+	margin: 0 66px;
+	width: 205px;
 }
 
 .advantages__title {
@@ -161,29 +159,32 @@ a {
 	color: #333333;
 }
 
+.features-list_item {
+	margin-bottom: 121px;
+}
+
 .advantages__description {
 	font-size: 14px;
 	text-align: center;
 	font-weight: normal;
     margin-bottom: 85px;
-	width: 252px;
+	
 	justify-content: center;
 	flex-direction: column;
 }
 
 .offer__title {
+	margin: 0;
 	font-size: 30px;
 	line-height: 36px;
 	text-align: center;
 	font-weight: bold;
 }
 
-.offer {
-	margin-top: ;
-}
-
 .offer__text {
 	line-height: 24px;
+	width: 320px;
+	margin: 15px auto;
 }
 
 .offer-form__button {
@@ -201,9 +202,20 @@ a {
 	font-weight: bold;
 }
 
+.search-form__theme {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
 .search-form__input {
 	font-size: 14px;
 	font-weight: bold;
+}
+
+.search-form__people {
+	display: flex;
+	align-items: center;
 }
 
 .search-form__submit {
@@ -353,7 +365,6 @@ a {
 }
 
 .header {
-	height: 71px;
 	margin: 0 auto;
 	display: flex;
 	align-items: flex-start;
