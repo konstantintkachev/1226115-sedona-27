@@ -173,12 +173,6 @@ a {
 	flex-direction: column;
 }
 
-.offer {
-	background-image: url(../img/map.png);
-	background-repeat: no-repeat;
-	background-position-y: 90px;
-}
-
 .offer__title {
 	margin: 0;
 	font-size: 30px;
@@ -206,6 +200,9 @@ a {
 .search-form {
 	font-size: 14px;
 	font-weight: bold;
+	background-image: url(../img/map.png);
+	background-repeat: no-repeat;
+	height: 473px;
 }
 
 .search-form__theme {
@@ -463,11 +460,16 @@ a {
 	top: 16px;
 }
 
+.footer {
+	margin-top: 36px;
+}
+
 .footer__hashtag {
 	font-size: 21px;
 	font-weight: bold;
 	text-align: left;
 	margin-bottom: 16px;
+
 }
 
 .footer__phone {
