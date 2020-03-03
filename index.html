@@ -4,7 +4,8 @@
 	<meta charset="utf-8">
 	<title>HTML Academy: Седона</title>
 	<link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&amp;subset=latin,cyrillic" rel="stylesheet">
-    	<link href="css/style.css" rel="stylesheet">
+		<link href="css/style.css" rel="stylesheet">
+</head>
 <body>
 <div class="wrapper">	
 	<header class="header">	
@@ -122,17 +123,27 @@
 						<input class="search-form__input" id="date-of-departure" type="text" name="dateEnd" value="4 июля 2017">
 					</label>
 					<div class="search-form__people">
-					<label class="search-form__theme" for="adults"><span class="search-form__text">Взрослые:</span>
-						<input class="search-form__input" id="adults" type="number" name="quantity" value="2">
-					</label>
-					<label class="search-form__theme" for="children"><span class="search-form__text">Дети:</span>
-					<input class="search-form__input" id="children" type="number" name="quantity" value="0">
-					</label>
+						<label class="search-form__theme" for="adults"><span class="search-form__text">Взрослые:</span>
+							<input class="search-form__input-number" id="adults" type="number" name="quantity" value="2">
+						</label>
+						<label class="search-form__theme" for="children"><span class="search-form__text">Дети:</span>
+							<input class="search-form__input-number" id="children" type="number" name="quantity" value="0">
+						</label>
 					</div>
 					<label class="search-form__theme" for="submit">
 						<input class="search-form__submit" id="submit" type="submit" value="Найти">
 					</label>
-			</form>
+					<button class="search-form__button_less" type="button"></button>
+					<button class="search-form__button_more" type="button"></button>
+					<button class="search-form__button_less-less" type="button"></button>
+					<button class="search-form__button_more-more" type="button"></button>
+					<button class="search-form__button_calendar-1" type="button">
+						<img class="search-form__img-1" src="img/calendar.svg" width="21px" height="22px" alt="Календарь">
+					</button>
+					<button class="search-form__button_calendar-2" type="button">
+						<img class="search-form__img-2" src="img/calendar.svg" width="21px" height="22px" alt="Календарь">
+					</button>
+ 			</form>
 			<div class="map">
 
 			</div>
