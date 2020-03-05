@@ -370,21 +370,33 @@ a {
 	background-repeat: no-repeat;
 	position: relative;
 	background-position: -50px -290px;
+	color: #ffffff;
+	
 }
 
 .filter__form {
 	display: flex;
-	justify-content: space-between;
+	width: 100%;
 }
 
 .filter__border {
-	border: none;
-	
+	border: 0;
+	margin-left: 72px;
+	padding-left: 0;
 }
 
 .filter__items {
+	display: flex;
 	list-style: none;
-	
+	flex-direction: column;
+	align-content: space-around;
+	padding-left: 0;
+}
+
+.filter__header {
+	display: flex;
+	flex-direction: column;
+	margin-left: 171px;
 }
 
 .filter__title {
@@ -392,6 +404,31 @@ a {
 	font-weight: bold;
 	text-align: left;
 	padding: 31px 0 0 40px;
+	padding-left: 0;
+	display: flex; 
+	flex-direction: column;
+}
+
+.filter__value {
+	display: flex;
+	margin-top: 13px;
+}
+
+.filter__number {
+	padding: 11px 0;
+	text-align: center;
+	color: #ffffff;
+	background-color: transparent;
+	border: 2px solid #ffffff;
+	
+}
+
+.number {
+	border-right: none;
+}
+
+.filter__range {
+	margin-left: 40px;
 }
 
 .filter__item {
@@ -399,11 +436,14 @@ a {
 	padding-bottom: 23px;
 }
 
-.search-form__button_color {
+.filter__button {
 	width: 133px;
 	height: 32px;
 	border: solid 2px #000000;
 	text-transform: uppercase;
+	background-color: transparent;
+	border: 2px solid #ffffff;
+	color: #ffffff;
 }
 
 .filter__number {
@@ -501,7 +541,6 @@ a {
 .hotels__result {
 	display: flex;
 	margin-bottom: 61px;
-	flex-wrap: wrap;
 }
 
 .hotels__name {
@@ -551,12 +590,11 @@ a {
 
 .hottels__stars {
 	margin-bottom: 47px;
-	display: flex;
-	justify-content: space-between;
 }
 
 .hotels__raiting {
 	color: #666666;
+	text-align: left;
 }
 
 .header {
