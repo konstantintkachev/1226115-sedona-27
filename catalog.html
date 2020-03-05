@@ -64,13 +64,20 @@
 							</li>
 						</ul>
 					</fieldset>
-					<label class="filter__title" for="renta">Стоимость в сутки (Р):</label>
-						<input class="filter__number" type="text" id="renta" name="minCost" value="от 0">
-							<input class="filter__number" type="text" name="maxCost" value="до 3000">
-								<img src="img/filter-button.svg" width="20px" height="22px" alt="Фильтрующая кнопка">
-							<input class="filter__range" type="range" min="1" step="1" name="cost">
-								<img src="img/filter-button.svg" width="20px" height="22px" alt="Фильтрующая кнопка">
-						<button class="search-form__button_color" type="submit">Показать</button>
+					<div class="filter__header">
+						<label class="filter__title" for="renta">Стоимость в сутки (Р):
+							<div class="filter__value">
+							<input class="filter__number number" type="text" id="renta" name="minCost" value="от 0">
+								<input class="filter__number" type="text" name="maxCost" value="до 3000">
+							</div>
+						</label>
+									<img src="img/filter-button.svg" width="20px" height="22px" alt="Фильтрующая кнопка">
+										<input class="filter__range" type="range" min="1" step="1" name="cost">
+											<img src="img/filter-button.svg" width="20px" height="22px" alt="Фильтрующая кнопка">
+						<label class="filter__theme" for="submit">
+							<input class="filter__button" id="submit" type="submit" value="Показать">
+						</label>
+					</div>
 				</form>
 		</section>
 				<div class="search-queries">
@@ -120,8 +127,8 @@
             				<img src="img/star.svg" width="18px" height="17px" alt="Звезды">
                 				<img src="img/star.svg" width="18px" height="17px" alt="Звезды">
 									<img src="img/star.svg" width="18px" height="17px" alt="Звезды">
-						<span class="hotels__raiting">Рейтинг: 8,5</span>
 					</div>
+						<span class="hotels__raiting">Рейтинг: 8,5</span>	
 			</li>
 
             <li class="hotels__item">
