@@ -641,7 +641,7 @@ a {
 	margin: 0px 6px 5px 0;
 }
 
-.hottels__stars {
+/*.hottels__stars {
 	margin-bottom: 47px;
 	margin-left: auto;
 	margin-right: 72px;
@@ -651,8 +651,22 @@ a {
 
 .hotels__raiting {
 	color: #666666;
-	text-align: left;
 	margin-top: 43px;
+}
+*/
+.hotels__title {
+	margin-left: auto;
+	margin-right: 72px;
+}
+.hotels__stars {
+	list-style: none;
+	padding: 0;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.hotels__text {
+	margin-top: 44px;
 }
 
 .header {
