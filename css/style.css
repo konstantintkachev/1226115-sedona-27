@@ -73,8 +73,54 @@ a {
 	background-color: #669ec0;
 }
 
+.hotels__button:active {
+	background-color: #5496bd;
+	color: rgba(255, 255, 255, 0.3);
+}
+
 .button:hover {
 	background-color: #604e43;
+}
+
+.button:active {
+	color: #503e33;
+}
+
+.hotels__name:hover {
+	color: #81b3d2;
+}
+
+.hotels__name:active {
+	color: rgba(0, 0, 0, 0.3);
+}
+
+.socials__link:hover {
+	background-color: #669ec0;
+}
+
+.socials__link:active {
+	background-color: #5496bd;
+}
+
+.search-form__input:hover {
+	background-color: #ebebeb;
+	width: 310px;
+ 	height: 25px;
+}
+
+.search-form__input:focus {
+	width: 310px;
+	height: 25px;
+	border: 2px solid #e5e5e5;
+}
+
+.search-form__submit:hover {
+	background-color: #669ec0;
+}
+
+.search-form__submit:active {
+	background-color: #5496bd;
+	color: rgba(255, 255, 255, 0.3);
 }
 
 .section__title {
@@ -507,6 +553,7 @@ a {
 	background-color: transparent;
 	border: 2px solid #ffffff;
 	color: #ffffff;
+	cursor: pointer;
 }
 
 .filter__number {
@@ -558,6 +605,7 @@ a {
 	color:#81b3d2;
 	outline: none;
 	text-transform: uppercase;
+	cursor: pointer;
 }
 
 .search-queries__button_active:active {
@@ -572,6 +620,7 @@ a {
 	color: rgba(0, 0, 0, 0.3);
 	outline: none;
 	border-bottom: dashed 1px;
+	cursor: pointer;
 }
 
 .search-queries__button:hover {
@@ -611,6 +660,7 @@ a {
 	color: #000000;
 	font-size: 21px;
 	margin: 0 0 12px 30px;
+	cursor: pointer;
 }
 
 .hotels__header {
@@ -640,6 +690,7 @@ a {
 	height: 27px;
 	margin: 0px 6px 5px 0;
 	padding: 0;
+	cursor: pointer;
 }
 
 .hotels__number {
