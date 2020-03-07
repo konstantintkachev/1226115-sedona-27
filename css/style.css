@@ -18,7 +18,7 @@ a {
 .wrapper {
 	box-shadow: 0px 5px 15px 0 rgba(0, 1, 1, 0.2);
 	text-align: center;
-	max-width: 1200px;
+	width: 1200px;
 	background-color: #ffffff;
 }
 
@@ -369,8 +369,9 @@ a {
 	background-image: url(../img/filter-background.png);
 	background-repeat: no-repeat;
 	position: relative;
-	background-position: -50px -290px;
+	background-position: 0 -290px;
 	color: #ffffff;
+	width: 100%;
 	
 }
 
@@ -382,6 +383,7 @@ a {
 .filter__border {
 	border: 0;
 	margin-left: 72px;
+	margin-right: 115px;
 	padding-left: 0;
 }
 
@@ -396,7 +398,8 @@ a {
 .filter__header {
 	display: flex;
 	flex-direction: column;
-	margin-left: 171px;
+	margin-left: auto;
+	margin-right: 74px;
 }
 
 .filter__title {
@@ -420,20 +423,67 @@ a {
 	color: #ffffff;
 	background-color: transparent;
 	border: 2px solid #ffffff;
-	
+}
+
+.filter__img-1 {
+	position: relative;
+	left: 269px;
+    top: 15px;
+}
+
+.filter__img-2 {
+	position: relative;
+    top: -13px;
 }
 
 .number {
 	border-right: none;
 }
 
-.filter__range {
-	margin-left: 40px;
-}
-
 .filter__item {
 	text-align: left;
 	padding-bottom: 23px;
+}
+
+.filter__image-1 {
+	position: relative;
+	right: 88px;
+    top: 6px;
+}
+
+.filter__image-2 {
+	position: relative;
+	right: 104px;
+    top: 6px;
+}
+
+.filter__image-3 {
+	position: relative;
+	right: 84px;
+    top: 6px;
+}
+
+.filter__image-4 {
+	position: relative;
+	right: 126px;
+    top: 6px;
+}
+
+.filter__image-5 {
+	position: relative;
+	right: 98px;
+    top: 6px;
+}
+
+.filter__image-6 {
+	position: relative;
+	right: 69px;
+    top: 6px;
+}
+
+
+.filter__text {
+	padding-left: 40px;
 }
 
 .filter__button {
@@ -452,7 +502,7 @@ a {
 
 .filter__range {
 	height: 2px;
-	width: 248px;
+	width: 100%;
 }
 
 .search-queries{
@@ -531,6 +581,7 @@ a {
 .hotels__items {
 	display: flex;
 	flex-direction: column;
+	padding: 0;
 }
 
 .hotels__item {
@@ -561,6 +612,8 @@ a {
 	margin: 0 53px 18px 30px;
 }
 
+
+
 .hotels__buttons {
 	display: flex;
 	margin: 0 6px 0 30px;
@@ -590,11 +643,16 @@ a {
 
 .hottels__stars {
 	margin-bottom: 47px;
+	margin-left: auto;
+	margin-right: 72px;
+	display: flex;
+	justify-content: flex-end;
 }
 
 .hotels__raiting {
 	color: #666666;
 	text-align: left;
+	margin-top: 43px;
 }
 
 .header {
@@ -688,6 +746,7 @@ a {
 .socials__link img {
 	position: relative;
 	top: 16px;
+	left: 3px;
 }
 
 .footer {
