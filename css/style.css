@@ -98,9 +98,28 @@ a {
 	background-color: #669ec0;
 }
 
-.socials__link:active {
+.socials__link img:active {
 	background-color: #5496bd;
 	opacity: 0.3;
+}
+
+.htmlacademy img:hover {
+	background-image: url(../img/logo-name.png);
+}
+
+.htmlacademy img:active {
+	opacity: 0.3;
+}
+
+.offer-form__button:hover {
+	background-color: #604e43;
+	cursor: pointer;
+}
+
+.offer-form__button:active {
+	background-color: #503e33;
+	color: rgba(255, 255, 255, 0.3);
+	cursor: pointer;
 }
 
 .search-form__input:hover {
@@ -117,11 +136,33 @@ a {
 
 .search-form__submit:hover {
 	background-color: #669ec0;
+	cursor: pointer;
 }
 
 .search-form__submit:active {
 	background-color: #5496bd;
 	color: rgba(255, 255, 255, 0.3);
+	cursor: pointer;
+}
+
+.arrows__triangle-up:hover {
+	opacity: 1;
+}
+
+.search-form__button_calendar-1:hover {
+	opacity: 1;
+}
+
+.search-form__button_calendar-2:hover {
+	opacity: 1;
+}
+
+.search-form__button_less:hover {
+	background-color: #000000;
+}
+
+.search-form__button_more:hover {
+	background-color: #000000;
 }
 
 .section__title {
@@ -414,6 +455,7 @@ a {
 	border: none;
 	cursor: pointer;
 	outline: none;
+	opacity: 0.3;
 }
 
 .search-form__button_calendar-2 {
@@ -423,6 +465,7 @@ a {
 	border: none;
 	cursor: pointer;
 	outline: none;
+	opacity: 0.3;
 }
 
 .filter {
@@ -574,6 +617,15 @@ a {
 
 .arrows {
 	padding-left: 430px;
+}
+
+.arrows__triangle-up {
+	opacity: 0.3;
+	cursor: pointer;
+}
+
+.arrows__triangle-down{
+	cursor: pointer;
 }
 
 .search-queries__list {
