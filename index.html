@@ -118,31 +118,33 @@
 				<form class="search-form" action="https://echo.htmlacademy.ru" method="post">
 					<label class="search-form__theme" for="date-of-arrival"><span class="search-form__text">Дата заезда:</span>
 						<input class="search-form__input" id="date-of-arrival" type="text" name="dateStart" value="24 апреля 2017">
+						<button class="search-form__button_calendar-1" type="button">
+							<img class="search-form__img-1" src="img/calendar.svg" width="21px" height="22px" alt="Календарь">
+						</button>
 					</label>
 					<label class="search-form__theme" for="date-of-departure"><span class="search-form__text">Дата выезда:</span>
 						<input class="search-form__input" id="date-of-departure" type="text" name="dateEnd" value="4 июля 2017">
+						<button class="search-form__button_calendar-2" type="button">
+							<img class="search-form__img-2" src="img/calendar.svg" width="21px" height="22px" alt="Календарь">
+						</button>
 					</label>
 					<div class="search-form__people">
 						<label class="search-form__theme" for="adults"><span class="search-form__text">Взрослые:</span>
 							<input class="search-form__input-number" id="adults" type="number" name="quantity" value="2">
+							<button class="search-form__button_less" type="button"></button>
+							<button class="search-form__button_more" type="button"></button>
 						</label>
 						<label class="search-form__theme" for="children"><span class="search-form__text">Дети:</span>
 							<input class="search-form__input-number" id="children" type="number" name="quantity" value="0">
+							<button class="search-form__button_less-less" type="button"></button>
+							<button class="search-form__button_more-more" type="button"></button>
 						</label>
 					</div>
 					<label class="search-form__theme" for="submit">
 						<input class="search-form__submit" id="submit" type="submit" value="Найти">
 					</label>
-					<button class="search-form__button_less" type="button"></button>
-					<button class="search-form__button_more" type="button"></button>
-					<button class="search-form__button_less-less" type="button"></button>
-					<button class="search-form__button_more-more" type="button"></button>
-					<button class="search-form__button_calendar-1" type="button">
-						<img class="search-form__img-1" src="img/calendar.svg" width="21px" height="22px" alt="Календарь">
-					</button>
-					<button class="search-form__button_calendar-2" type="button">
-						<img class="search-form__img-2" src="img/calendar.svg" width="21px" height="22px" alt="Календарь">
-					</button>
+					
+					
  			</form>
 			<div class="map">
 
