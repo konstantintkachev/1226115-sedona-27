@@ -138,7 +138,15 @@ a {
 }
 
 .arrows__triangle-up:hover {
-	opacity: 1;
+	fill: black;
+}
+
+.arrows__triangle-down:hover {
+	fill: black;
+}
+
+.arrows__triangle-up:active {
+	fill: #81b3d2;
 }
 
 .search-form__button_calendar-1:hover {
@@ -149,12 +157,28 @@ a {
 	opacity: 1;
 }
 
+.search-form__button_calendar-1:active {
+	stroke: #81b3d2;
+}
+
+.search-form__button_calendar-2:active {
+	stroke: #81b3d2;
+}
+
 .search-form__button_less:hover {
 	background-color: #000000;
 }
 
 .search-form__button_more:hover {
 	background-color: #000000;
+}
+
+.htmlacademy svg:hover {
+	stroke: #81b3d2;
+}
+
+.htmlacademy svg:active {
+	stroke: #bdbbbc;
 }
 
 .section__title {
@@ -612,7 +636,12 @@ a {
 }
 
 .arrows__triangle-up {
-	opacity: 0.3;
+	fill: #cacaca;
+	cursor: pointer;
+}
+
+.arrows__triangle-down {
+	fill: #81b3d2;
 	cursor: pointer;
 }
 
@@ -894,6 +923,12 @@ a {
 	display: flex;
 	padding-right: 101px;
 	align-items: center;
+}
+
+ .htmlacademy svg {	
+	width: 115px;
+	height: 41px;
+	overflow: visible;
 }
 
 .logo {
