@@ -103,14 +103,6 @@ a {
 	opacity: 0.3;
 }
 
-.htmlacademy img:hover {
-	background-image: url(../img/logo-name.png);
-}
-
-.htmlacademy img:active {
-	opacity: 0.3;
-}
-
 .offer-form__button:hover {
 	background-color: #604e43;
 	cursor: pointer;
