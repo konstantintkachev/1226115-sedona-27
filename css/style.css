@@ -116,13 +116,9 @@ a {
 
 .search-form__input:hover {
 	background-color: #ebebeb;
-	width: 310px;
- 	height: 25px;
 }
 
 .search-form__input:focus {
-	width: 310px;
-	height: 25px;
 	border: 2px solid #e5e5e5;
 }
 
@@ -150,11 +146,11 @@ a {
 }
 
 .search-form__button_calendar-1:hover {
-	opacity: 1;
+	fill: #000000;
 }
 
 .search-form__button_calendar-2:hover {
-	opacity: 1;
+	fill: #000000;
 }
 
 .search-form__button_calendar-1:active {
@@ -163,14 +159,6 @@ a {
 
 .search-form__button_calendar-2:active {
 	stroke: #81b3d2;
-}
-
-.search-form__button_less:hover {
-	background-color: #000000;
-}
-
-.search-form__button_more:hover {
-	background-color: #000000;
 }
 
 .htmlacademy svg:hover {
@@ -210,7 +198,6 @@ a {
 	width: 400px;
 	background-color: #81b3d2;
 	padding-top: 46px;
-	
 }
 
 .feature__title {
@@ -218,7 +205,7 @@ a {
 	text-align: center;
 	color: #ffffff;
 	margin: 0;
-	padding: 15px 111px 25px;
+	padding: 15px 138px 25px 137px;
 }
 
 .feature__number {
@@ -247,7 +234,6 @@ a {
 	justify-content: space-around;
 	align-items: baseline;
 	margin: 0 auto;
-	padding: auto;
 } 
 
 .advantages__item {
@@ -345,10 +331,11 @@ a {
 .search-form__input {
 	font-size: 14px;
 	font-weight: bold;
-	border: none;
+	border: 2px solid transparent;
 	background-color: #f2f2f2;
 	margin-left: 32px;
-	width: 105px;
+	width: 310px;
+	height: 25px;
 }
 
 .search-form__input-number {
@@ -357,7 +344,9 @@ a {
 	border: none;
 	background-color: #f2f2f2;
 	margin-left: 103px;
-	width: 105px;
+	outline: none;
+	width: 25px;
+	margin-right: 78px;
 }
 
 .search-form__people {
@@ -382,7 +371,7 @@ a {
 	height: 3px;
 	content: "";
 	cursor: pointer;
-	top: 191px;
+	top: 212px;
 	left: 180px;
 	border: none;
 	background-color: #d0d0d0;
@@ -390,7 +379,7 @@ a {
 
 .search-form__button_more {
     position: absolute;
-    top: 191px;
+    top: 212px;
     left: 256px;
     width: 12px;
     height: 3px;
@@ -426,7 +415,7 @@ a {
 	height: 3px;
 	content: "";
 	cursor: pointer;
-	top: 191px;
+	top: 212px;
 	right: 143px;
 	border: none;
 	background-color: #d0d0d0;
@@ -434,7 +423,7 @@ a {
 
 .search-form__button_more-more {
     position: absolute;
-    top: 191px;
+    top: 212px;
     right: 68px;
     width: 12px;
     height: 3px;
@@ -466,22 +455,20 @@ a {
 
 .search-form__button_calendar-1 {
 	position: absolute;
-	top: 91px;
-	right: 57px;
+	transform: translateX(423px) translateY(1px);
 	border: none;
 	cursor: pointer;
 	outline: none;
-	opacity: 0.3;
+	fill: #cacaca;
 }
 
 .search-form__button_calendar-2 {
 	position: absolute;
-	right: 57px;
-	top: 137px;
+	transform: translateX(423px) translateY(1px);
 	border: none;
 	cursor: pointer;
 	outline: none;
-	opacity: 0.3;
+	fill: #cacaca;
 }
 
 .filter {
@@ -552,7 +539,8 @@ a {
 
 .filter__img-2 {
 	position: relative;
-    top: -13px;
+	top: -13px;
+	left: 34px;
 }
 
 .number {
@@ -622,7 +610,8 @@ a {
 
 .filter__range {
 	height: 2px;
-	width: 100%;
+	width: 340px;
+	margin-left: 40px;
 }
 
 .search-queries{
@@ -831,7 +820,6 @@ a {
 	top: 0px;
 	left: 50%;
 	margin-left: -70px;
-
 }
 
 .banner {
