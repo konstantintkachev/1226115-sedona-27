@@ -30,8 +30,8 @@
 	<main>
 		<h1 class="visually-hidden">Добро пожаловать в Седону</h1>
 		<div class="banner">
-			<img class="banner__img-1" src="img/intro-welcome.svg" width="459px" height="353px" alt="Добро пожаловать в Седону">
-			<img class="banner__img-2" src="img/polygon.png" width="1203px" height="59px" alt="Полигон">
+			<img class="banner__img-welcome" src="img/intro-welcome.svg" width="459px" height="353px" alt="Добро пожаловать в Седону">
+			<img class="banner__img-polygon" src="img/polygon.png" width="1203px" height="59px" alt="Полигон">
 		</div>
 		<section class="section">
 				<h2 class="section__title">Седона - небольшой городок в Аризоне, заслуживающий большего!</h2>
@@ -50,21 +50,21 @@
 				<h2 class="visually-hidden">Советы</h2>
 				<ul class="advantages__items">
 					<li class="advantages__item">
-						<img src="img/icon-1.svg" width="75px" height="72px" alt="Дом">
+						<img src="img/icon-house.svg" width="75px" height="72px" alt="Дом">
 						<h3 class="advantages__title">Жильё</h3>
 						<p class="advantages__description">
 							Рекомендуем пожить в настоящем мотеле, все как в кино!
 						</p>
 					</li>
 					<li class="advantages__item">
-						<img src="img/icon-3.svg" width="74px" height="70px" alt="Еда">
+						<img src="img/icon-food.svg" width="74px" height="70px" alt="Еда">
 						<h3 class="advantages__title">Еда</h3>
 						<p class="advantages__description">
 							Всегда заказывайте фирменный бургер, вы не разочаруетесь!
 						</p>
 					</li>
 					<li class="advantages__item">
-						<img src="img/icon-2.svg" width="64px" height="76px" alt="Сувениры">
+						<img src="img/icon-souvenirs.svg" width="64px" height="76px" alt="Сувениры">
 						<h3 class="advantages__title">Сувениры</h3>
 						<p class="advantages__description">
 							Не только китайского, но и местного производства!
@@ -73,7 +73,7 @@
 				</ul>
 			</div>
 				<div class="feature">
-					<img src="img/layer-5.png" width="800px" height="256px" alt="Мост дьявола">
+					<img src="img/layer-bridge.png" width="800px" height="256px" alt="Мост дьявола">
 					<div class="feature__wrapper">
 						<h3 class="feature__title">Там есть мост дьявола</h3>
 						<span class="feature__number">- №2 -</span>
@@ -118,29 +118,29 @@
 				<form class="search-form" action="https://echo.htmlacademy.ru" method="post">
 					<label class="search-form__date-theme" for="date-of-arrival"><span class="search-form__text">Дата заезда:</span>
 						<input class="search-form__input" id="date-of-arrival" type="text" name="dateStart" value="24 апреля 2017">	
+						<div class="search-form__calendar"></div>
 					</label>
 					<label class="search-form__date-theme" for="date-of-departure"><span class="search-form__text">Дата выезда:</span>
 						<input class="search-form__input" id="date-of-departure" type="text" name="dateEnd" value="4 июля 2017">
+						<div class="search-form__calendar"></div>
 					</label>
 					<div class="search-form__people">
-						<label class="search-form__people" for="adults"><span class="search-form__text">Взрослые:</span>
-							<button class="search-form__button_less" type="button">-</button>
+						<label class="search-form__people" for="adults"><span class="search-form__text search-form__text--adults">Взрослые:</span>
+							<button class="search-form__button" type="button">&minus;</button>
 							<input class="search-form__input-number" id="adults" type="text" name="quantity" value="2">
-							<button class="search-form__button_more" type="button">+</button>
+							<button class="search-form__button" type="button">&plus;</button>
 						</label>
 						<label class="search-form__people" for="children"><span class="search-form__children">Дети:</span>
-							<button class="search-form__button_less" type="button">-</button>
+							<button class="search-form__button" type="button">&minus;</button>
 							<input class="search-form__input-number" id="children" type="text" name="quantity" value="0">
-							<button class="search-form__button_more" type="button">+</button>
+							<button class="search-form__button" type="button">&plus;</button>
 						</label>
 					</div>
 					<label class="search-form__theme" for="submit">
 						<button class="search-form__submit" id="submit" type="submit" >Найти</button>
 					</label>			
  			</form>
-			<div class="map">
-
-			</div>
+			<div class="map"></div>
 	</section>
 </main>
 <footer class="footer">
