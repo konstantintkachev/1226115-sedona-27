@@ -9,6 +9,7 @@ body {
 	font-weight: normal;
 	text-transform: uppercase;
 	background-color: #f2f2f2;
+	font-style: normal;
 }
 
 a {
@@ -40,14 +41,28 @@ a {
 	line-height: 26px;
 	font-weight: bold;
 	font-style: normal;
-	letter-spacing: normal;
+	letter-spacing: 1.5px;
 	list-style: none;
 	display: flex;
+	padding: 0;
+	margin: 0;
+	height: 56px;
+	align-items: center;
 }
 
 .nav__item {
-	padding: 0 100px;
+	padding: 0 75px 0 73px;
 	justify-content: space-between;
+	margin-left: auto;	
+}
+
+.item {
+	padding-left: 84px;
+}
+
+.item--item {
+	padding-left: 89px;
+	padding-right: 70px;
 }
 
 .nav__link {
@@ -72,7 +87,8 @@ a {
 }
 
 .header {
-	margin: 0 auto;
+	margin: 0;
+	padding: 0;
 	display: flex;
 	align-items: flex-start;
 	position: relative;
@@ -82,11 +98,13 @@ a {
 .header-logo__img {
 	width: 140px;
 	height: 71px;
-	position: absolute;
+	position: relative;
 	z-index: 1;
-	top: 0px;
-	left: 50%;
-	margin-left: -70px;
+	top: 6px;
+	display: block;
+	margin-left: 44px;
+	margin-right: 44px;
+	
 }
 /*---------------------------------END HEADER----------------------------------*/
 
@@ -97,7 +115,7 @@ a {
 	position: relative;
 	background-image: url("../img/background-photo.png");
 	height: 510px;
-	background-position: 0 -105px;
+	background-position: 0 -83px;
 	background-repeat: no-repeat;
 }
 
@@ -107,7 +125,7 @@ a {
 	position: absolute;
 	margin-left: 370px;
 	height: 353px;
-	top: 60px;
+	top: 76px;
 }
 
 .banner__img-polygon {
@@ -124,21 +142,27 @@ a {
 .section__title {
 	font-size: 21px;
 	font-weight: bold;
-	line-height: 26px;
-	width: 440px;
-	margin: 59px 380px 38px 380px;
+	line-height: 1.24;
+	width: 466px;
+	margin: 59px 370px 32px 370px;
 	text-align: center;
 	color: #000000;
+	letter-spacing: 2.2px;
+	height: 48px;
+	font-stretch: normal;
+	font-style: normal;
 }
 
 .section__description {
-	width: 489px;
- 	font-size: 14px;
+	height: 18px;
+ 	font-size: 13px;
  	font-weight: normal;
-	 line-height: 26px;
+	 line-height: 1.86;
 	 text-align: center;
-	 margin: 38px 356px 56px 355px;
+	 margin: 30px 354px 56px 341px;
 	 color: #333333;
+	 letter-spacing: 2.1px;
+	 width: 520px;
 }
 
 .section__background {
@@ -163,8 +187,8 @@ a {
 .feature__wrapper {
 	width: 400px;
 	background-color: #81b3d2;
-	padding-top: 46px;
 	text-align: center;
+	letter-spacing: 1.5px;
 }
 
 .feature__title {
@@ -172,21 +196,48 @@ a {
 	text-align: center;
 	color: #ffffff;
 	margin: 0;
-	padding: 15px 138px 25px 137px;
+	padding: 47px 141px 25px 137px;
+	letter-spacing: 2.1px;
+	width: 129px;
+}
+
+.bridge-devil {
+	width: 150px;
+	padding-left: 127px;
+	padding-right: 123px;
+	padding-bottom: 23px;
+}
+
+.bridge-number {
+	padding-left: 4px;
+}
+
+.feature__description-text {
+	width: 303px;
+	padding: 20px 40px;
+	color: #ffffff;
+	margin: 0;
+	letter-spacing: 1.6px;
+	padding-left: 50px;
+    padding-right: 47px;
 }
 
 .feature__number {
 	font-size: 14px;
 	text-align: center;
 	color: #ffffff;
+	padding-left: 5px;
+	letter-spacing: 2.5px;
 }
 
 .feature__description {
 	font-size: 14px;
 	text-align: center;
 	color: #ffffff;
-	margin: 25px auto;
-	width: 220px;
+	margin: 0;
+	padding: 20px 62px;
+	width: 272px;
+	letter-spacing: 1.5px;
 }
 
 .feature__number-number {
@@ -197,28 +248,39 @@ a {
 	margin-bottom: 121px;
 }
 
+.item-description {
+	margin-bottom: 121px;
+}
+
 /*---------------------------------END FEATURE---------------------------------*/
 
 /*------------------------------START ADVANTAGES-------------------------------*/
 
 .advantages {
-	display: flex;
 	margin-top: 60px;
 }
 
 .advantages__items {
 	list-style: none;
 	display: flex;
-	flex-direction: row;
 	justify-content: space-around;
 	align-items: baseline;
-	margin: 0 auto;
+	margin-bottom: 68px;
+	padding: 0;
+	margin-top: 0;
 } 
 
 .advantages__item {
-	margin: 0 66px;
-	width: 205px;
+	margin: 0;
+	width: 252px;
 	text-align: center;
+	letter-spacing: 1.5px;
+	margin-left: 13px;
+}
+
+.area {
+	width: 208px;
+	margin-left: 24px;
 }
 
 .advantages__title {
@@ -231,9 +293,20 @@ a {
 	font-size: 14px;
 	text-align: center;
 	font-weight: normal;
-    margin-bottom: 85px;
 	justify-content: center;
 	flex-direction: column;
+	margin-top: 23px;
+}
+
+.food-item {
+	width: 284px;
+	margin-left: 11px;
+}
+
+.souvenirs-item {
+	width: 273px;
+	margin-left: 0;
+	margin-right: 5px;
 }
 
 .advantages__continuation {
@@ -244,6 +317,8 @@ a {
 	font-size: 21px;
 	font-weight: bold;
 	text-align: center;
+	margin-top: 0;
+	letter-spacing: 2.5px;
 }
 
 /*-------------------------------END ADVANTAGES--------------------------------*/
