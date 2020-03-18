@@ -277,6 +277,7 @@ a {
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
+	border: none;
 }
 
 .offer-form__button:hover {
@@ -587,12 +588,12 @@ a {
 	overflow: visible;
 }
 
-.htmlacademy svg:hover {
-	stroke: #81b3d2;
+.htmlacademy svg:hover path {
+	fill: #81b3d2;
 }
 
-.htmlacademy svg:active {
-	stroke: #bdbbbc;
+.htmlacademy svg:active path {
+	fill: #bdbbbc;
 }
 
 .logo {
@@ -636,6 +637,7 @@ a {
 	padding-left: 0;
 	display: flex; 
 	flex-direction: column;
+	color: #ffffff;
 }
 
 .filter__items {
