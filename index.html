@@ -60,14 +60,14 @@
 							Рекомендуем пожить в настоящем мотеле, все как в кино!
 						</p>
 					</li>
-					<li class="advantages__item food-item">
+					<li class="advantages__item advantages-food">
 						<img src="img/icon-food.svg" width="74px" height="70px" alt="Еда">
 						<h3 class="advantages__title">Еда</h3>
 						<p class="advantages__description">
 							Всегда заказывайте фирменный бургер, вы не разочаруетесь!
 						</p>
 					</li>
-					<li class="advantages__item souvenirs-item">
+					<li class="advantages__item advantages-souvenirs">
 						<img src="img/icon-souvenirs.svg" width="64px" height="76px" alt="Сувениры">
 						<h3 class="advantages__title">Сувениры</h3>
 						<p class="advantages__description">
@@ -79,8 +79,8 @@
 				<div class="feature">
 					<img src="img/layer-bridge.png" width="800px" height="256px" alt="Мост дьявола">
 					<div class="feature__wrapper">
-						<h3 class="feature__title bridge-devil">Там есть мост дьявола</h3>
-						<span class="feature__number bridge-number">&mdash;№2&mdash;</span>
+						<h3 class="feature__title feature-bridge">Там есть мост дьявола</h3>
+						<span class="feature__number feature-bridge__number">&mdash;№2&mdash;</span>
 						<p class="feature__description-text">
 							Да, по нему можно пройти! Если конечно вы осмелитесь 
 						</p>
@@ -88,25 +88,25 @@
 				</div>
 				<div class="advantages__continuation">
 					<h2 class="visually-hidden">Преимущества</h2>
-					<ul class="advantages__items">
-						<li class="advantages__item area ">
-							<h3 class="advantages__header">Небольшая площадь</h3>
+					<ul class="advantages__continuation__items">
+						<li class="advantages__continuation__item advantages-area ">
+							<h3 class="advantages__continuation__header">Небольшая площадь</h3>
 							<span class="feature__number-number">&mdash;№3&mdash;</span>
-							<p class="features-list_item-description">
+							<p class="advantages__continuation advantages-description__article">
 								Все достопримечательности находятся очень близко
 							</p>
 						</li>
-						<li class="advantages__item">
-							<h3 class="advantages__header">Красивая дорога</h3>
+						<li class="advantages__continuation__item advantages-road">
+							<h3 class="advantages__continuation__header advantages-header-road">Красивая дорога</h3>
 							<span class="feature__number-number">&mdash;№4&mdash;</span>
-							<p class="features-list_item">
+							<p class="advantages__continuation advantages-description__article-road">
 								Ехать в Седону из Лас - вегаса совсем не скучно!
 							</p>
 						</li>
-						<li class="advantages__item">
-							<h3 class="advantages__header">Мало туристов</h3>
+						<li class="advantages__continuation__item advantages-tourists">
+							<h3 class="advantages__continuation__header advantages-header-tourists">Мало туристов</h3>
 							<span class="feature__number-number">&mdash;№5&mdash;</span>
-							<p class="features-list_item">
+							<p class="advantages__continuation advantages-description__article-tourists">
 								Большинство едет в Гранд Каньон и толпится там
 							</p>
 						</li>
@@ -114,10 +114,12 @@
 				</div>
 		</section>
 	<section class="offer">
+		<div class="offer__article"> 
 			<h2 class="offer__title">Заинтересовались?</h2>
 			<p class="offer__text">
-				Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостинец в Седоне
+				Укажите предполагаемые даты поездки,<br> и мы покажем вам лучшие предложения гостинец в Седоне
 			</p>
+		</div>
 			<button class="offer-form__button" type="button">Поиск гостиницы в Седоне</button>
 				<form class="search-form" action="https://echo.htmlacademy.ru" method="post">
 					<label class="search-form__date-theme" for="date-of-arrival"><span class="search-form__text">Дата заезда:</span>
