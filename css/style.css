@@ -182,6 +182,7 @@ a {
 .feature {
 	width: 1200px;
 	display: flex;
+	margin: 0;
 }
 
 .feature__wrapper {
@@ -201,14 +202,14 @@ a {
 	width: 129px;
 }
 
-.bridge-devil {
+.feature-bridge {
 	width: 150px;
 	padding-left: 127px;
 	padding-right: 123px;
 	padding-bottom: 23px;
 }
 
-.bridge-number {
+.feature-bridge__number {
 	padding-left: 4px;
 }
 
@@ -244,14 +245,6 @@ a {
 	color: #333333;
 }
 
-.features-list_item {
-	margin-bottom: 121px;
-}
-
-.item-description {
-	margin-bottom: 121px;
-}
-
 /*---------------------------------END FEATURE---------------------------------*/
 
 /*------------------------------START ADVANTAGES-------------------------------*/
@@ -268,6 +261,8 @@ a {
 	margin-bottom: 68px;
 	padding: 0;
 	margin-top: 0;
+	box-sizing: border-box;
+	line-height: 21px;
 } 
 
 .advantages__item {
@@ -276,11 +271,6 @@ a {
 	text-align: center;
 	letter-spacing: 1.5px;
 	margin-left: 13px;
-}
-
-.area {
-	width: 208px;
-	margin-left: 24px;
 }
 
 .advantages__title {
@@ -298,32 +288,106 @@ a {
 	margin-top: 23px;
 }
 
-.food-item {
+.advantages-food {
 	width: 284px;
 	margin-left: 11px;
 }
 
-.souvenirs-item {
+.advantages-souvenirs {
 	width: 273px;
 	margin-left: 0;
 	margin-right: 5px;
 }
 
 .advantages__continuation {
-	margin-top: 50px;
+	background-color: #eeeeee;
 }
 
-.advantages__header { 
-	font-size: 21px;
-	font-weight: bold;
+.advantages__continuation__items {
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
+	align-items: baseline;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	line-height: 21px;
+}
+
+.advantages__continuation__item {
+	margin: 0;
+	width: 400px;
+ 	height: 256px;
 	text-align: center;
-	margin-top: 0;
-	letter-spacing: 2.5px;
+	letter-spacing: 1.5px;
+	box-sizing: border-box;
 }
 
+.advantages-area {
+	padding-top: 28px;
+    padding-left: 95px;
+    padding-right: 97px;
+	padding-bottom: 63px;
+	letter-spacing: 2px;
+}
+
+.advantages__continuation__header {
+	font-size: 21px;
+	line-height: 21px;
+	text-align: center;
+}
+
+.advantages-road {
+	padding-top: 28px;
+    padding-left: 69px;
+    padding-right: 69px;
+    padding-bottom: 64px;
+}
+.advantages-header-road {
+	width: 170px;
+    margin-left: 47px;
+}
+
+.advantages-description__article {
+	margin-bottom: 121px;
+	margin-top: 22px;
+	letter-spacing: 1.5px;
+}
+
+.advantages-description__article-road {
+	margin-top: 22px;
+    width: 271px;
+    margin-left: 0px;
+	margin-right: 0px;
+}
+.advantages-tourists {
+	padding-top: 28px;
+    padding-right: 77px;
+    padding-left: 77px;
+    padding-bottom: 64px;
+}
+
+.advantages-header-tourists {
+	width: 152px;
+    margin-left: 48px;
+}
+
+.advantages-description__article-tourists {
+	margin-top: 22px;
+}
+	
 /*-------------------------------END ADVANTAGES--------------------------------*/
 
 /*--------------------------------START OFFER----------------------------------*/
+
+.offer__article {
+	margin-top: 50px;
+	width: 434px;
+	height: 96px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 52px;
+}
 
 .offer__title {
 	margin: 0;
@@ -331,13 +395,16 @@ a {
 	line-height: 36px;
 	text-align: center;
 	font-weight: bold;
+	letter-spacing: 2.5px;
 }
 
 .offer__text {
 	line-height: 24px;
-	width: 320px;
-	margin: 15px auto 0;
+	width: 434px;
+	color: #333333;
 	text-align: center;
+	letter-spacing: 1.5px;
+	margin-top: 24px;
 }
 
 .offer-form__button {
