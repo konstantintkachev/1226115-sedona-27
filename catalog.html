@@ -9,9 +9,6 @@
 <body>
 <div class="wrapper">
 	<header class="header">
-		<a href="index.html">
-				<img class="header-logo__img" src="img/logo-sedona.svg" width="140px" height="71px" alt="Логотип Седона">
-		</a>
 		<nav class="nav">
 			<ul class="nav__items">
 				<li class="nav__item">
@@ -20,10 +17,15 @@
 				<li class="nav__item">
 					<a class="nav__link" href="#">Фото и видео</a>
 				</li>
-				<li class="nav__item">
+				<li>
+					<a href="index.html">
+						<img class="header-logo__img" src="img/logo-sedona.svg" width="140px" height="71px" alt="Логотип Седона">
+					</a>
+				</li>
+				<li class="nav__item nav-map">
 					<a class="nav__link" href="#">Карта штата</a>
 				</li>
-				<li class="nav__item">
+				<li class="nav__item nav__item-hotel">
 					<a class="nav__link_active" href="#">Гостиницы</a>
 				</li>
 			</ul>
@@ -40,7 +42,7 @@
 									<label class="filter__text" for="filter__pool">Бассейн</label>
 									<img class="filter__image-pool" src="img/checkbox-on.svg" width="27px" height="23px" alt="checkbox-on">
 							</li>
-							<li class="filter__item">
+							<li class="filter__item filter-item-parking">
 								<input type="checkbox" name="parking" id="filter_parking" class="visually-hidden">
 									<label class="filter__text" for="filter_parking">Парковка</label>
 									<img class="filter__image-parking" src="img/checkbox-off.svg" width="27px" height="23px" alt="checkbox-off">
@@ -52,28 +54,28 @@
 							</li>
 						</ul>
 					</fieldset>
-					<fieldset class="filter__border">
+					<fieldset class="filter__border filter__border-type-house">
 						<legend class="filter__title">Тип жилья:</legend>
 						<ul class="filter__items">
 							<li class="filter__item">
 								<input type="checkbox" name="filter_hotel" id="filter_hotel" class="visually-hidden">
-									<label class="filter__text" for="filter_hotel">Гостиница</label>
+									<label class="filter__text filter__text-hotel" for="filter_hotel">Гостиница</label>
 									<img class="filter__image-hotel" src="img/checkbox-on.svg" width="27px" height="23px" alt="checkbox-on">
 							</li>
 							<li class="filter__item">
 								<input type="checkbox" name="filter_motel" id="filter_motel" class="visually-hidden">
-									<label class="filter__text" for="filter_motel">Мотель</label>
+									<label class="filter__text filter__text-motel" for="filter_motel">Мотель</label>
 									<img class="filter__image-motel" src="img/checkbox-on.svg" width="27px" height="23px" alt="checkbox-on">
 							</li>
 							<li class="filter__item">
 								<input type="checkbox" name="filter_apartment" id="filter_apartments" class="visually-hidden">
-									<label class="filter__text" for="filter_apartments">Аппартаменты</label>
+									<label class="filter__text filter__text-apartments" for="filter_apartments">Аппартаменты</label>
 									<img class="filter__image-apartments" src="img/checkbox-on.svg" width="27px" height="23px" alt="checkbox-on">
 							</li>
 						</ul>
 					</fieldset>
 					<div class="filter__header">
-						<label class="filter__title" for="renta">Стоимость в сутки (Р):
+						<label class="filter__title filter__title-tabl" for="renta">Стоимость в сутки (Р):
 							<div class="filter__value">
 							<input class="filter__number number" type="text" id="renta" name="minCost" value="от 0">
 								<input class="filter__number" type="text" name="maxCost" value="до 3000">
@@ -89,8 +91,8 @@
 				</form>
 		</section>
 				<div class="search-queries">
-						<span class="search-queries__title">Найдено 3:</span>
-							<span class="search-queries__title title">Сортировка:</span>
+						<span class="search-queries__title">Найдено:3</span>
+							<span class="search-queries__title search-queries__title-sort">Сортировка:</span>
 							<ul class="search-queries__list">
 								<li class="search-queries__items">
 									<button type="button" class="search-queries__button_active">По цене</button>
@@ -126,7 +128,7 @@
 						</a>
 					<div class="hotels__header">
 						<div class="hotels__parameters">
-							<h2 class="hotels__name">Amara Resert & Spa</h2>
+							<h2 class="hotels__name hotel__name-name">Amara Resert & Spa</h2>
                 			<span class="hotels__item-type">Гостиница</span>
 								<span class="hotels__number">от 4000 р.</span>
 						</div>
@@ -138,26 +140,26 @@
 				</div>
 					<div class="hotels__title">
 						<ul class="hotels__stars">
-       						<li>
-								<img src="img/star.svg" width="18px" height="17px" alt="Звезды">
+       						<li class="hotels__stars-img">
+								<img class="hotel__stars-img__first" src="img/star.svg" width="18px" height="17px" alt="Звезды">
 							</li>
             				<li>
-								<img src="img/star.svg" width="18px" height="17px" alt="Звезды">
+								<img class="hotel__stars-img__second" src="img/star.svg" width="18px" height="17px" alt="Звезды">
 							</li>
                 			<li>
-								<img src="img/star.svg" width="18px" height="17px" alt="Звезды">
+								<img class="hotel__stars-img__third" src="img/star.svg" width="18px" height="17px" alt="Звезды">
 							</li>
 							<li>
-								<img src="img/star.svg" width="18px" height="17px" alt="Звезды">
+								<img class="hotel__stars-img__fourth" src="img/star.svg" width="18px" height="17px" alt="Звезды">
 							</li>	
 						</ul>
 						<div class="hotels__text">
-							<span>Рейтинг: 8,5</span>	
+							<span>Рейтинг:8,5</span>	
 						</div>
 					</div>
 			</li>
 
-            <li class="hotels__item">
+            <li class="hotels__item hotels__item-parameters">
 				<div class="hotels__result">
                 		<a href="#">
                 			<img class="hotels__img" src="img/hotel-picture1.png" width="135px" height="90px">
@@ -175,31 +177,31 @@
 					</div>
 				</div>
 					<div class="hotels__title">
-						<ul class="hotels__stars">
-                   			<li>
-								<img src="img/star.svg" width="18px" height="17px" alt="Звезды">
+						<ul class="hotels__stars hotels__stars-list">
+                   			<li class="hotels__stars--img">
+								<img class="hotels__stars hotels-stars" src="img/star.svg" width="18px" height="17px" alt="Звезды">
 							</li>
 							<li>
-								<img src="img/star.svg" width="18px" height="17px" alt="Звезды">
+								<img class="hotels__stars hotels--stars" src="img/star.svg" width="18px" height="17px" alt="Звезды">
 							</li>
                         	<li>
-								<img src="img/star.svg" width="18px" height="17px" alt="Звезды">
+								<img class="hotels__stars hotels---stars" src="img/star.svg" width="18px" height="17px" alt="Звезды">
 							</li>
 						</ul>
 						<div class="hotels__text">
-							<span>Рейтинг: 8,9</span>
+							<span>Рейтинг:8,9</span>
 						</div>
                		</div>
 			</li>
-            <li class="hotels__item">
+            <li class="hotels__item hotels__item-apartments">
 				<div class="hotels__result">
                 		<a href="#">
                     		<img class="hotels__img" src="img/hotel-picture2.png" width="135px" height="90px" alt="Аппартаменты">		
 						</a>
 					<div class="hotels__header">	
 						<div class="hotels__parameters">  
-							<h2 class="hotels__name">Villas At Pocco Diablo</h2>
-                    		<span class="hotels__item-type">Апартаменты</span>
+							<h2 class="hotels__name hotels__name-apartments">Villas At Pocco Diablo</h2>
+                    		<span class="hotels__item-type hotels__item-type-apartments">Апартаменты</span>
 								<span class="hotels__number-number-min">от 2000 р.</span>
 						</div>
 						<div class="hotels__buttons">
@@ -208,31 +210,31 @@
 						</div>			
 					</div>
 				</div>
-					<div class="hotels__title">
+					<div class="hotels__title hotels__title-stars">
 						<ul class="hotels__stars">
                     		<li>
 								<img src="img/star.svg" width="18px" height="17px" alt="Звезды">
 							</li>
 							<li>
-								<img src="img/star.svg" width="18px" height="17px" alt="Звезды">
+								<img class="hotels__stars hotels----stars" src="img/star.svg" width="18px" height="17px" alt="Звезды">
 							</li>
 						</ul>
 						<div class="hotels__text">
-							<span>Рейтинг: 9,2</span>
+							<span>Рейтинг:9,2</span>
 					   </div>
 					</div>
             </li>	
     </ul>
 </div>
 </main>
-<footer class="footer">
+<footer class="footer footer-list">
 	<div class="footer__info">
-		<span class="footer__hashtag">#visitsedona</span>
-		<a class="footer__phone" href="tel:+74956660266">тел: +7(495) 666-02-66</a>
+		<span class="footer__hashtag footer__hachtag-item">#visitsedona</span>
+		<a class="footer__phone footer__phone-item" href="tel:+74956660266">тел: +7(495) 666-02-66</a>
 	</div>
-	<ul class="socials">
+	<ul class="socials social-items">
 		<a href="https://twitter.com/">
-			<li class="socials__link">
+			<li class="socials__link socials__link-tw ">
 				<img src="img/twitter.svg" width="17px" height="15px" alt="Твиттер">
 			</li>
 		</a>
@@ -242,7 +244,7 @@
 			</li>
 		</a>
 		<a href="https://www.youtube.com/">
-			<li class="socials__link">
+			<li class="socials__link socials__link-youtube">
 				<img src="img/youtube.svg" width="20px" height="16px" alt="Ютуб">
 			
 			</li>
