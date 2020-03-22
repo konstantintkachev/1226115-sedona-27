@@ -3,7 +3,7 @@ body {
 	justify-content: center;
 	margin: 0;
 	padding: 0 40px 0 40px;
-	font-family: "PT Sans Narrow", Verdona, sans-serif;
+	font-family: "PT Sans Narrow", "Verdana", sans-serif;
 	font-size: 14px;
 	line-height: 21px;
 	font-weight: normal;
@@ -561,10 +561,6 @@ a {
 	margin-right: 37px;
 }
 
-.search-form__people-children {
-	letter-spacing: 1.6px;
-}
-
 .search-form__children {
 	margin-left: 52px;
 	margin-right: 24px;
@@ -959,8 +955,11 @@ a {
 	flex-direction: column;
 	margin-left: auto;
 	margin-right: 70px;
-	letter-spacing: 1.6px;
+	letter-spacing: 1.7px;
 	margin-top: 3px;
+	font-weight: bold;
+	font-size: 16px;
+	margin-top: 27px;
 }
 
 .filter__value {
@@ -970,7 +969,6 @@ a {
 	height: 36px;
 	margin-top: 10px;
 	box-sizing: border-box;
-	
 }
 
 .filter__number {
