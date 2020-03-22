@@ -124,24 +124,24 @@
 				<form class="search-form" action="https://echo.htmlacademy.ru" method="post">
 					<label class="search-form__date-theme" for="date-of-arrival"><span class="search-form__text">Дата заезда:</span>
 						<input class="search-form__input" id="date-of-arrival" type="text" name="dateStart" value="24 апреля 2017">	
-						<div class="search-form__calendar"></div>
+						<span class="search-form__calendar"></span>
 					</label>
-					<label class="search-form__date-theme" for="date-of-departure"><span class="search-form__text">Дата выезда:</span>
+					<label class="search-form__date-theme-date" for="date-of-departure"><span class="search-form__text">Дата выезда:</span>
 						<input class="search-form__input" id="date-of-departure" type="text" name="dateEnd" value="4 июля 2017">
-						<div class="search-form__calendar"></div>
+						<span class="search-form__calendar"></span>
 					</label>
-					<div class="search-form__people">
-						<label class="search-form__people" for="adults"><span class="search-form__text search-form__text--adults">Взрослые:</span>
+					
+						<label class="search-form__people-adults" for="adults"><span class="search-form__adults">Взрослые:</span>
 							<button class="search-form__button" type="button">&minus;</button>
 							<input class="search-form__input-number" id="adults" type="text" name="quantity" value="2">
 							<button class="search-form__button" type="button">&plus;</button>
 						</label>
-						<label class="search-form__people" for="children"><span class="search-form__children">Дети:</span>
+						<label class="search-form__people-children" for="children"><span class="search-form__children">Дети:</span>
 							<button class="search-form__button" type="button">&minus;</button>
 							<input class="search-form__input-number" id="children" type="text" name="quantity" value="0">
 							<button class="search-form__button" type="button">&plus;</button>
 						</label>
-					</div>
+	
 					<label class="search-form__theme" for="submit">
 						<button class="search-form__submit" id="submit" type="submit" >Найти</button>
 					</label>			
@@ -155,21 +155,21 @@
 			<a class="footer__phone" href="tel:+74956660266">тел: +7(495) 666-02-66</a>
 		</div>
 		<ul class="socials">
-			<a href="https://twitter.com/">
-				<li class="socials__link social-tw">
+			<li class="socials__link social-tw">
+				<a href="https://twitter.com/">
 					<img src="img/twitter.svg" width="17px" height="15px" alt="Твиттер">
-				</li>
-			</a>
-			<a href="https://ru-ru.facebook.com/">
-				<li class="socials__link">
+				</a>
+			</li>
+			<li class="socials__link">
+				<a href="https://ru-ru.facebook.com/">
 					<img src="img/fb-icon.svg" width="12px" height="22px" alt="Фейсбук">
-				</li>
-			</a>
-			<a href="https://www.youtube.com/">
-				<li class="socials__link social-youtube">
+				</a>
+			</li>
+			<li class="socials__link social-youtube">
+				<a href="https://www.youtube.com/">
 					<img src="img/youtube.svg" width="20px" height="16px" alt="Ютуб">
-				</li>
-			</a>
+				</a>
+			</li>
 		</ul>
 		<div class="htmlacademy">
 				<span class="htmlacademy__item">website by</span>
