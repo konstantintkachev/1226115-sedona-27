@@ -10,6 +10,7 @@ body {
 	text-transform: uppercase;
 	background-color: #f2f2f2;
 	font-style: normal;
+	min-width: 1200px;
 }
 
 a {
