@@ -38,7 +38,7 @@
 						<legend class="filter__title">Инфраструктура:</legend>
 						<ul class="filter__items">
 							<li class="filter__item">
-								<input type="checkbox" name="pool" id="filter_pool" class="visually-hidden">
+								<input type="checkbox" name="pool" id="filter__pool" class="visually-hidden">
 									<label class="filter__text" for="filter__pool">Бассейн</label>
 									<img class="filter__image-pool" src="img/checkbox-on.svg" width="27px" height="23px" alt="checkbox-on">
 							</li>
@@ -75,13 +75,13 @@
 						</ul>
 					</fieldset>
 					<div class="filter__header">
-						<label class="filter__title filter__title-tabl" for="renta">Стоимость в сутки (Р):
-							<div class="filter__value">
-							<input class="filter__number number" type="text" id="renta" name="minCost" value="от 0">
-								<input class="filter__number" type="text" name="maxCost" value="до 3000">
-							</div>
+						<label class="filter__title" for="renta">Стоимость в сутки (Р):
+							<span class="filter__value">
+								<input class="filter__number" type="text" id="renta" name="minCost" value="от 0">
+									<input class="filter__number number" type="text" name="maxCost" value="до 3000">
+							</span>
 									<img class="filter__img-button-left" src="img/filter-button.svg" width="20px" height="22px" alt="Фильтрующая кнопка">
-										<div class="filter__range"></div>
+										<span class="filter__range"></span>
 											<img class="filter__img-button-right" src="img/filter-button.svg" width="20px" height="22px" alt="Фильтрующая кнопка">
 										</label>
 						<label class="filter__theme" for="submit">
@@ -233,22 +233,21 @@
 		<a class="footer__phone footer__phone-item" href="tel:+74956660266">тел: +7(495) 666-02-66</a>
 	</div>
 	<ul class="socials social-items">
-		<a href="https://twitter.com/">
-			<li class="socials__link socials__link-tw ">
+		<li class="socials__link socials__link-tw ">
+			<a href="https://twitter.com/">
 				<img src="img/twitter.svg" width="17px" height="15px" alt="Твиттер">
-			</li>
-		</a>
-		<a href="https://ru-ru.facebook.com/">
-			<li class="socials__link">
+			</a>
+		</li>
+		<li class="socials__link">
+			<a href="https://ru-ru.facebook.com/">
 				<img src="img/fb-icon.svg" width="12px" height="22px" alt="Фейсбук">
-			</li>
-		</a>
-		<a href="https://www.youtube.com/">
-			<li class="socials__link socials__link-youtube">
+			</a>
+		</li>
+		<li class="socials__link socials__link-youtube">
+			<a href="https://www.youtube.com/">
 				<img src="img/youtube.svg" width="20px" height="16px" alt="Ютуб">
-			
-			</li>
-		</a>
+			</a>
+		</li>
 	</ul>
 	<div class="htmlacademy">
 			<span class="htmlacademy__item">website by</span>
