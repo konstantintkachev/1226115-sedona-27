@@ -127,6 +127,7 @@ a {
 	height: 510px;
 	background-position: 0 -83px;
 	background-repeat: no-repeat;
+	background-color: #5496bd;
 }
 
 .banner__img-welcome {
@@ -700,6 +701,7 @@ a {
 	background-image: url(../img/map.png);
 	background-repeat: no-repeat;
 	height: 473px;
+	background-color: #766357;
 }
 
 /*-------------------------------START FOOTER----------------------------------*/
@@ -843,6 +845,7 @@ a {
 
 .filter {
 	background-image: url(../img/filter-background.png);
+	background-color: #604e43;
 	background-repeat: no-repeat;
 	position: relative;
 	background-position: 0 -290px;
