@@ -283,7 +283,7 @@ a {
 }
 
 .advantages__title {
-	font-size: 21px;
+	font-size: 22.1px;
 	font-weight: bold;
 	text-align: center;
 }
@@ -305,7 +305,7 @@ a {
 .advantages-souvenirs {
 	width: 273px;
 	margin-left: 0;
-	margin-right: 5px;
+
 }
 
 .advantages__continuation {
@@ -466,11 +466,19 @@ a {
 	position: relative;
 	display: flex;
 	align-items: center;
-	margin-bottom: 29px;
+	margin-bottom: 28px;
+}
+
+.search-form__date-theme-date {
+	margin-bottom: 32px;
+	position: relative;
+	display: flex;
+	align-items: center;
 }
 
 .search-form__text {
-	min-width: 78px;
+	min-width: 96px;
+	letter-spacing: 1.6px;
 }
 
 .search-form__input {
@@ -478,12 +486,13 @@ a {
     font-weight: bold;
     border: 2px solid transparent;
     background-color: #f2f2f2;
-    margin-left: 32px;
+    margin-left: 13px;
     width: 100%;
     box-sizing: border-box;
     padding-left: 14px;
     padding-right: 41px;
-    height: 38px;
+	height: 38px;
+	padding-bottom: 5px;
 }
 
 .search-form__input-number {
@@ -492,8 +501,8 @@ a {
 	border: none;
 	background-color: #f2f2f2;
 	outline: none;
-	width: 38px;
-	height: 38px;
+	width: 30px;
+	height: 30px;
 	text-align: center;
 	padding: 0;
 }
@@ -544,26 +553,34 @@ a {
 	stroke: #81b3d2;
 }
 
-.search-form__people {
-	display: flex;
-	align-items: center;
-} 
+.search-form__people-adults {
+	letter-spacing: 1.6px;
+}
 
-.search-form__people-theme {
-	position: relative;
-	display: flex;
-	align-items: center;
-	margin-top: 24px;
+.search-form__adults {
+	margin-right: 37px;
+}
+
+.search-form__people-children {
+	letter-spacing: 1.6px;
+}
+
+.search-form__children {
+	margin-left: 52px;
+	margin-right: 24px;
 }
 
 .search-form__button {
 	border: none;
 	color:rgba(0, 1, 1, 0.15);
-	font-size: 29px;
+	font-size: 24px;
 	font-weight: bold;
 	outline: none;
-	height: 38px;
-	width: 38px;
+	height: 34px;
+	width: 34px;
+	padding: 0;
+	vertical-align: middle;
+	
 }
 
 .search-form__button:hover {
@@ -579,12 +596,8 @@ a {
 }
 
 .search-form__text--adults {
-	margin-right: 35px;
-}
-
-.search-form__children {
-	margin-left: 55px;
-	margin-right: 27px;
+	margin-right: 30px;
+	letter-spacing: 1.6px;
 }
 
 .search-form__submit {
@@ -822,7 +835,7 @@ a {
 .logo {
 	width: 64px;
 	height: 64px;
-	background-image: url("logo.png");
+	background-image: url(../img/logo.png);
 	background-repeat: no-repeat;
 	background-color: transparent;
   }
@@ -869,10 +882,6 @@ a {
 	color: #ffffff;
 	letter-spacing: 1.9px;
 	line-height: 21px;
-}
-
-.filter__title-tabl {
-	padding-top: 26px;
 }
 
 .filter__items {
@@ -951,33 +960,34 @@ a {
 	margin-left: auto;
 	margin-right: 70px;
 	letter-spacing: 1.6px;
+	margin-top: 3px;
 }
 
 .filter__value {
 	display: flex;
+	width: 314px;
+	text-align: center;
+	height: 36px;
 	margin-top: 10px;
+	box-sizing: border-box;
+	
 }
 
 .filter__number {
-	padding: 11px 0;
-	text-align: center;
-	color: #ffffff;
 	background-color: transparent;
-	border: 2px solid #ffffff;
+	color: #ffffff;
 	text-transform: uppercase;
-	box-sizing: border-box;
-	width: 158px;
-    border-bottom-width: 2px;
-	height: 37px;
+	text-align: center;
+	border: 2px solid #ffffff;
+	width: 157px;
 	border-radius: 3px;
 }
 
 .number {
-	border-right: none;
-	height: 37px;
-    width: 160px;
-	margin-right: 0;
-	border-radius: 3px;
+	width: 153px;
+	border-left: none;
+	padding-left: 2px;
+	
 }
 
 .filter__img-button-left {
@@ -1002,19 +1012,17 @@ a {
 }
 
 .filter__button {
-	border: solid 2px #000000;
 	text-transform: uppercase;
 	background-color: transparent;
 	border: 2px solid #ffffff;
 	color: #ffffff;
 	cursor: pointer;
 	display: block;
-	margin: 0 auto;
-	margin-top: 7px;
+	margin: 8px 0 0 84px;
     height: 36px;
     width: 139px;
-	margin-right: 97px;
 	border-radius: 3px;
+	padding-left: 8px;
 }
 
 .filter__button:hover {
@@ -1117,10 +1125,8 @@ a {
 .hotels__name {
 	color: #000000;
 	font-size: 21px;
-	margin: 0 0 12px 30px;
+	margin: 14px 0 10px 30px;
 	cursor: pointer;
-	margin-bottom: 10px;
-    margin-top: 14px;
 	letter-spacing: 2.1px;
 }
 
@@ -1168,14 +1174,13 @@ a {
 }
 
 .hotels__button {
-	padding: 0 6px 0 0;
 	border: 1px solid #81b3d2;
 	background-color: #81b3d2;
 	color: #ffffff;
 	text-transform: uppercase;
 	width: 110px;
 	height: 27px;
-	margin: 0px 6px 5px 0;
+	margin: 0 6px 5px 0;
 	padding: 0;
 	cursor: pointer;
 	letter-spacing: 0.1px;
@@ -1184,16 +1189,14 @@ a {
 }
 
 .button {
-	padding: 0 6px 0 0;
+	padding: 0;
 	background-color: #766357;
 	border: 1px solid #766357;
 	color: #ffffff;
 	text-transform: uppercase;
 	width: 142px;
 	height: 27px;
-	margin: 14px 6px 5px 0;
-	padding: 0;
-	margin-right: 13px;
+	margin: 14px 13px 5px 0;
 }
 
 .hotels__button:hover {
@@ -1281,7 +1284,6 @@ a {
 .hotels__text {
 	margin-top: 45px;
     letter-spacing: 1.7px;
-    letter-spacing: 1;
     margin-right: 11px;
 }
 /*--------------------------------END HOTELS-----------------------------------*/
