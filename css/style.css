@@ -691,6 +691,7 @@ a {
 	margin-left: 37px;
 	margin-right: 11px;
 	padding: 0;
+	background-color: transparent;
 }
 
 .search-queries__button_active:active {
