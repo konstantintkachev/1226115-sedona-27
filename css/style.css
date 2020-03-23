@@ -673,13 +673,13 @@ a {
 	cursor: pointer;
 	padding: 0;
 	margin-right: 8px;
-	background-color: red;
+	background-color: #ffffff;
 	
 }
 
 .search-queries__items-button {
 	margin-left: 4px;
-	background-color: red;
+	background-color: #ffffff;
 }
 
 .search-queries__button_active {
