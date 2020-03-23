@@ -141,7 +141,7 @@ a {
 
 .banner__img-polygon {
 	position: absolute;
-	top: 453px;
+	top: 452px;
 	height: 59px;
 	left: -1px;
 }
@@ -434,7 +434,7 @@ a {
 	display: block;
 	border: none;
 	padding: 0;
-	letter-spacing: -1px;
+	letter-spacing: 2.3px;
 }
 
 .offer-form__button:hover {
@@ -497,6 +497,8 @@ a {
     padding-right: 41px;
 	height: 38px;
 	padding-bottom: 5px;
+	text-transform: uppercase;
+	letter-spacing: 1.6px;
 }
 
 .search-form__input-number {
@@ -609,9 +611,9 @@ a {
 	font-weight: bold;
 	color: #ffffff;
 	text-transform: uppercase;
-	margin: 55px 0 55px 0;
+	margin: 53px 0 55px 0;
 	border: none;
-	letter-spacing: -1px;
+	letter-spacing: 1.7px;
 }
 
 .search-form__submit:hover {
@@ -1001,7 +1003,7 @@ a {
 	display: flex;
 	flex-direction: column;
 	margin-left: auto;
-	margin-right: 70px;
+	margin-right: 68px;
 	letter-spacing: 1.7px;
 	margin-top: 3px;
 	font-weight: bold;
@@ -1063,7 +1065,7 @@ a {
 	color: #ffffff;
 	cursor: pointer;
 	display: block;
-	margin: 8px 0 0 84px;
+	margin: 8px 0 0 82px;
     height: 36px;
     width: 139px;
 	border-radius: 3px;
@@ -1231,7 +1233,7 @@ a {
 	margin: 0 6px 5px 0;
 	padding: 0;
 	cursor: pointer;
-	letter-spacing: 0.1px;
+	letter-spacing: 1.5px;
 	margin-top: 14px;
     padding-left: 6px;
 }
