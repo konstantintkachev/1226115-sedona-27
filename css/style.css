@@ -670,7 +670,8 @@ a {
 	outline: none;
 	text-decoration: underline dashed;
 	cursor: pointer;
-	padding-left: 3px;
+	padding: 0;
+	margin-right: 8px;
 	
 }
 
@@ -687,7 +688,9 @@ a {
 	text-transform: uppercase;
 	cursor: pointer;
 	letter-spacing: 0.2px;
-	margin-left: 32px;
+	margin-left: 37px;
+	margin-right: 11px;
+	padding: 0;
 }
 
 .search-queries__button_active:active {
@@ -1044,7 +1047,7 @@ a {
 /*-------------------------------START ARROWS----------------------------------*/
 
 .arrows {
-	margin-left: 472px;
+	margin-left: 469px;
 }
 
 .arrows__triangle-up {
