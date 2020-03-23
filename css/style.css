@@ -428,8 +428,7 @@ a {
 	color: #ffffff;
 	text-transform: uppercase;
 	margin-top: 52px ;
-	margin-left: auto;
-	margin-right: 301px;
+	margin-left: 315px;
 	display: block;
 	border: none;
 	padding: 0;
@@ -457,7 +456,7 @@ a {
 	width: 459px;
 	position: absolute;
 	left: 50%;
-	margin-left: -229px;
+	margin-left: -284px;
 	background-color: #ffffff;
 	box-shadow: 0px 7px 15px 0 rgba(0, 1, 1, 0.15);
 	padding-top: 55px;
