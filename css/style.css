@@ -679,7 +679,7 @@ a {
 
 .search-queries__items-button {
 	margin-left: 4px;
-	background-color: #ffffff;
+	background-color: red;
 }
 
 .search-queries__button_active {
@@ -693,8 +693,7 @@ a {
 	letter-spacing: 0.2px;
 	margin-left: 37px;
 	margin-right: 11px;
-	padding: 0;
-	
+	background-color: red;
 }
 
 .search-queries__button_active:active {
