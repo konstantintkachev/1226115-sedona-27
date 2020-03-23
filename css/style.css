@@ -672,11 +672,13 @@ a {
 	cursor: pointer;
 	padding: 0;
 	margin-right: 8px;
+	background-color: #ffffff;
 	
 }
 
 .search-queries__items-button {
 	margin-left: 4px;
+	background-color: #ffffff;
 }
 
 .search-queries__button_active {
@@ -1049,6 +1051,7 @@ a {
 
 .arrows {
 	margin-left: 475px;
+	
 }
 
 .arrows__triangle-up {
@@ -1056,12 +1059,14 @@ a {
 	cursor: pointer;
 	margin-right: 9px;
 	padding: 0;
+	background-color: #ffffff;
 }
 
 .arrows__triangle-down {
 	fill: #81b3d2;
 	cursor: pointer;
 	padding: 0;
+	background-color: #ffffff;
 }
 
 .arrows__triangle-up:active {
