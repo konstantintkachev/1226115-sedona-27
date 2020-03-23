@@ -641,7 +641,7 @@ a {
 
 .search-queries__items {
 	margin-right: 20px;
-	background-color: #ffffff;
+	
 }
 
 .search-queries__title {
@@ -673,7 +673,7 @@ a {
 	cursor: pointer;
 	padding: 0;
 	margin-right: 8px;
-	background-color: #ffffff;
+	background-color: red;
 	
 }
 
