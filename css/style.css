@@ -1047,19 +1047,20 @@ a {
 /*-------------------------------START ARROWS----------------------------------*/
 
 .arrows {
-	margin-left: 469px;
+	margin-left: 475px;
 }
 
 .arrows__triangle-up {
 	fill: #cacaca;
 	cursor: pointer;
-    padding-top: 0px;
-    padding-right: 3px;
+	margin-right: 9px;
+	padding: 0;
 }
 
 .arrows__triangle-down {
 	fill: #81b3d2;
 	cursor: pointer;
+	padding: 0;
 }
 
 .arrows__triangle-up:active {
