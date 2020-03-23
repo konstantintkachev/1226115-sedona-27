@@ -11,6 +11,7 @@ body {
 	background-color: #f2f2f2;
 	font-style: normal;
 	min-width: 1200px;
+
 }
 
 a {
@@ -428,7 +429,7 @@ a {
 	text-transform: uppercase;
 	margin-top: 52px ;
 	margin-left: auto;
-	margin-right: auto;
+	margin-right: 301px;
 	display: block;
 	border: none;
 	padding: 0;
@@ -456,7 +457,7 @@ a {
 	width: 459px;
 	position: absolute;
 	left: 50%;
-	margin-left: -284px;
+	margin-left: -229px;
 	background-color: #ffffff;
 	box-shadow: 0px 7px 15px 0 rgba(0, 1, 1, 0.15);
 	padding-top: 55px;
@@ -669,6 +670,7 @@ a {
 	text-decoration: underline dashed;
 	cursor: pointer;
 	padding-left: 3px;
+	
 }
 
 .search-queries__button_active {
@@ -1037,13 +1039,12 @@ a {
 /*-------------------------------START ARROWS----------------------------------*/
 
 .arrows {
-	padding-left: 430px;
+	margin-left: 476px;
 }
 
 .arrows__triangle-up {
 	fill: #cacaca;
 	cursor: pointer;
-	padding-left: 51px;
     padding-top: 0px;
     padding-right: 3px;
 }
