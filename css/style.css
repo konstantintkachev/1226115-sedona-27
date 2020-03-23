@@ -141,7 +141,7 @@ a {
 
 .banner__img-polygon {
 	position: absolute;
-	top: 452px;
+	top: 453px;
 	height: 59px;
 	left: -1px;
 }
@@ -576,11 +576,10 @@ a {
 	font-size: 24px;
 	font-weight: bold;
 	outline: none;
-	height: 34px;
-	width: 34px;
+	height: 30px;
+	width: 30px;
 	padding: 0;
 	vertical-align: middle;
-	
 }
 
 .search-form__button:hover {
@@ -641,7 +640,6 @@ a {
 
 .search-queries__items {
 	margin-right: 20px;
-	
 }
 
 .search-queries__title {
@@ -897,6 +895,7 @@ a {
 	color: #ffffff;
 	letter-spacing: 1.9px;
 	line-height: 21px;
+	margin-bottom: 10px;
 }
 
 .filter__items {
@@ -909,8 +908,43 @@ a {
 
 .filter__item {
 	text-align: left;
-	padding-bottom: 17px;
+	padding-bottom: 25px;
 	letter-spacing: 1.5px;
+}
+
+.filter__checkbox {
+	position: absolute;
+	z-index: -1;
+	opacity: 0;
+	margin: 10px 0 0 20px;
+}
+
+.filter__checkbox + label {
+	position: relative;
+	padding: 0 0 0 40px;
+	cursor: pointer;
+}
+
+.filter__checkbox + label::before {
+	content: '';
+	position: absolute;
+	top: -4px;
+	left: 0;
+	width: 19px;
+	height: 18px;
+	border-radius: 3px;
+	background: transparent;
+	border: 2px solid #ffffff;
+}
+
+.filter__checkbox:checked + label::after {
+	content: '';
+	background: url(../img/checkbox-on.png) no-repeat;
+	position: absolute;
+	left: 0; 
+	top: -4px;
+	width: 27px;
+	height: 23px;
 }
 
 .filter__text {
@@ -940,7 +974,7 @@ a {
 }
 
 .filter-item-parking {
-	padding-bottom: 17px;
+	padding-bottom: 25px;
 }
 
 .filter__image-hotel {
@@ -1044,7 +1078,7 @@ a {
 
 .filter__button:hover {
 	color: #000000;
-	background-color: #ffffff;;
+	background-color: #ffffff;
 }
 
 /*--------------------------------END FILTER-----------------------------------*/
@@ -1054,7 +1088,6 @@ a {
 .arrows {
 	margin-left: 475px;
 	background-color: transparent;
-	
 }
 
 .arrows__triangle-up {
