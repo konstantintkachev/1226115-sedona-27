@@ -391,6 +391,9 @@ a {
 
 /*--------------------------------START OFFER----------------------------------*/
 
+.offer {
+	position: relative;
+}
 .offer__article {
 	margin-top: 50px;
 	width: 434px;
