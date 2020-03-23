@@ -671,6 +671,10 @@ a {
 	
 }
 
+.search-queries__items-button {
+	margin-left: 4px;
+}
+
 .search-queries__button_active {
 	border: none;
 	font-size: 11px;
@@ -680,7 +684,7 @@ a {
 	text-transform: uppercase;
 	cursor: pointer;
 	letter-spacing: 0.2px;
-	padding-left: 38px;
+	margin-left: 32px;
 }
 
 .search-queries__button_active:active {
@@ -1037,7 +1041,7 @@ a {
 /*-------------------------------START ARROWS----------------------------------*/
 
 .arrows {
-	margin-left: 476px;
+	margin-left: 472px;
 }
 
 .arrows__triangle-up {
