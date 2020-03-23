@@ -663,7 +663,7 @@ a {
 }
 
 .search-queries__button {
-	font-size: 11px;
+	font-size: 12px;
 	line-height: 18px;
 	border: none;
 	text-transform: uppercase;
@@ -674,7 +674,7 @@ a {
 	padding: 0;
 	margin-right: 8px;
 	background-color: transparent;
-	
+	letter-spacing: 1.6px;
 }
 
 .search-queries__items-button {
@@ -691,9 +691,9 @@ a {
 	outline: none;
 	text-transform: uppercase;
 	cursor: pointer;
-	letter-spacing: 0.2px;
-	margin-left: 37px;
-	margin-right: 11px;
+	letter-spacing: 1.6px;
+	margin-left: 40px;
+	margin-right: 13px;
 	background-color: transparent;
 	padding: 0;
 }
@@ -1080,7 +1080,7 @@ a {
 /*-------------------------------START ARROWS----------------------------------*/
 
 .arrows {
-	margin-left: 475px;
+	margin-left: 473px;
 	background-color: transparent;
 }
 
