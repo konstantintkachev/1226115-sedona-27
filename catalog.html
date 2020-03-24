@@ -15,25 +15,23 @@
 		<header class="header">
 			<nav class="nav">
 				<ul class="nav__items">
-					<li class="nav__item">
-						<a class="nav__link" href="index.html">Информация</a>
+					<li class="nav__item-link">
+						<a class="nav__link" href="#">Информация</a>
 					</li>
-					<li class="nav__item">
+					<li class="nav__item--link">
 						<a class="nav__link" href="#">Фото и видео</a>
 					</li>
-					<li>
-						<a href="#">
-							<img class="header-logo__img" src="img/logo-sedona.svg" width="140" height="71"
-								alt="Логотип Седона">
-						</a>
-					</li>
-					<li class="nav__item nav-map">
+					<li class="nav__item-item">
 						<a class="nav__link" href="#">Карта штата</a>
 					</li>
-					<li class="nav__item nav__item-hotel">
+					<li class="nav__item--item">
 						<a class="nav__link_active" href="#">Гостиницы</a>
 					</li>
 				</ul>
+				<a href="index.html">
+					<img class="header-logo__img" src="img/logo-sedona.svg" width="140" height="71"
+						alt="Логотип Седона">
+				</a>
 			</nav>
 		</header>
 		<main>
@@ -48,7 +46,7 @@
 								<label for="filter__pool">Бассейн</label>
 							</li>
 							<li class="filter__item filter-item-parking">
-								<input type="checkbox" class="filter__checkbox" id="filter_parking" >
+								<input type="checkbox" class="filter__checkbox" id="filter_parking">
 								<label for="filter_parking">Парковка</label>
 							</li>
 							<li class="filter__item">
@@ -79,17 +77,20 @@
 							</li>
 						</ul>
 					</fieldset>
-					<div class="filter__header">Стоимость в сутки (Р):
-							<div class="filter__value">
-								<input class="filter__number" type="text" id="renta" name="minCost" value="от 0">
-								<input class="filter__number number" type="text" name="maxCost" value="до 3000">
+					<div class="filter-range">
+							<div class="filter-range-title">Стоимость в сутки (р):</div>
+							<div class="price-controls">
+								<label class="min-price" for="">от <input type="number" name="min-price" value="0"></label>
+								<label class="max-price" for="">до <input type="number" name="max-price" value="3000"></label>
 							</div>
-							<img class="filter__img-button-left" src="img/filter-button.svg" width="20" height="22"
-								alt="Фильтрующая кнопка">
-							<span class="filter__range"></span>
-							<img class="filter__img-button-right" src="img/filter-button.svg" width="20" height="22"
-								alt="Фильтрующая кнопка">
-							<button class="filter__button" type="submit">Показать</button>
+							<div class="range-controls">
+								<div class="scale">
+									<div class="bar"></div>
+								</div>
+								<div class="range-toggle range-toggle-min"></div>
+      						  	<div class="range-toggle range-toggle-max"></div>
+							</div>
+							<button class="btn-transparent" type="submit">Показать</button>
 					</div>
 				</form>
 			</section>
@@ -108,12 +109,12 @@
 					</li>
 				</ul>
 				<div class="arrows">
-					<button class="arrows__triangle-up" type="submit">
+					<button class="arrows__triangle-up" type="submit" aria-label="Вверх">
 						<svg xmlns="http://www.w3.org/2000/svg" width="11" height="10" viewBox="0 0 11 10">
 							<path d="M5.5 0L0 10h11z" />
 						</svg>
 					</button>
-					<button class="arrows__triangle-down" type="submit">
+					<button class="arrows__triangle-down" type="submit" aria-label="Вниз">
 						<svg xmlns="http://www.w3.org/2000/svg" width="11" height="10" viewBox="0 0 11 10">
 							<path d="M5.5 10L0 0h11" />
 						</svg>
